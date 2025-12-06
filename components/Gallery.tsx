@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import { useTranslations } from '@/hooks/useTranslations'
 
 const galleryImages = [
   '/images/film1.218a1d0efcf08e6b437b.webp',
@@ -18,6 +19,8 @@ const galleryImages = [
 ]
 
 export default function Gallery() {
+  const { t } = useTranslations()
+
   return (
     <section className="py-24 px-4 md:py-32">
       <div className="mx-auto max-w-7xl">
@@ -32,11 +35,11 @@ export default function Gallery() {
             className="mb-4 text-5xl font-bold tracking-tight md:text-6xl"
             style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 800 }}
           >
-            GALLERY
+            {t.gallery.title}
           </h2>
           <div className="mx-auto h-1 w-24 bg-white" />
           <p className="mt-4 font-mono text-sm text-gray-400">
-            FEATURED PRODUCTIONS
+            {t.gallery.subtitle}
           </p>
         </motion.div>
 
@@ -54,7 +57,7 @@ export default function Gallery() {
               <div className="relative aspect-auto overflow-hidden border border-gray-800 bg-[#0a0a0a] transition-all duration-300 hover:border-gray-600">
                 <Image
                   src={src}
-                  alt={`Gallery image ${index + 1}`}
+                  alt={`${t.gallery.subtitle} ${index + 1}`}
                   width={800}
                   height={600}
                   className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-105"

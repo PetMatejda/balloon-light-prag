@@ -1,59 +1,95 @@
 'use client'
 
 import { motion } from 'framer-motion'
-
-const specs = [
-  {
-    model: 'BL-5000',
-    output: '5.0 KW',
-    kelvin: '5600K',
-    wattage: '5000W',
-    dimming: '0-100%',
-    cri: '95+',
-  },
-  {
-    model: 'BL-3000',
-    output: '3.0 KW',
-    kelvin: '5600K',
-    wattage: '3000W',
-    dimming: '0-100%',
-    cri: '95+',
-  },
-  {
-    model: 'BL-2000',
-    output: '2.0 KW',
-    kelvin: '5600K / 3200K',
-    wattage: '2000W',
-    dimming: '0-100%',
-    cri: '95+',
-  },
-  {
-    model: 'BL-1000',
-    output: '1.0 KW',
-    kelvin: '5600K / 3200K',
-    wattage: '1000W',
-    dimming: '0-100%',
-    cri: '95+',
-  },
-  {
-    model: 'LED-CUBE-64',
-    output: '4.8 KW',
-    kelvin: '2700K-6500K',
-    wattage: '4800W',
-    dimming: '0-100%',
-    cri: '95+',
-  },
-  {
-    model: 'CLOUD-LIGHT',
-    output: '2.5 KW',
-    kelvin: '5600K',
-    wattage: '2500W',
-    dimming: '0-100%',
-    cri: '95+',
-  },
-]
+import { useTranslations } from '@/hooks/useTranslations'
 
 export default function TechnicalSpecs() {
+  const { t } = useTranslations()
+
+  const specs = [
+    {
+      model: 'Heliový balón 5KW',
+      output: '5.0 KW',
+      kelvin: '5600K / 3200K',
+      wattage: '5000W',
+      dimming: '0-100%',
+      cri: '95+',
+      type: 'HMI / Tungsten',
+    },
+    {
+      model: 'Heliový balón 3KW',
+      output: '3.0 KW',
+      kelvin: '5600K / 3200K',
+      wattage: '3000W',
+      dimming: '0-100%',
+      cri: '95+',
+      type: 'HMI / Tungsten',
+    },
+    {
+      model: 'Heliový balón 2KW',
+      output: '2.0 KW',
+      kelvin: '5600K / 3200K',
+      wattage: '2000W',
+      dimming: '0-100%',
+      cri: '95+',
+      type: 'HMI / Tungsten',
+    },
+    {
+      model: 'Heliový balón 1KW',
+      output: '1.0 KW',
+      kelvin: '5600K / 3200K',
+      wattage: '1000W',
+      dimming: '0-100%',
+      cri: '95+',
+      type: 'HMI / Tungsten',
+    },
+    {
+      model: 'LED Cube 64',
+      output: '4.8 KW',
+      kelvin: '2700K-6500K',
+      wattage: '4800W',
+      dimming: '0-100%',
+      cri: '95+',
+      type: 'LED',
+    },
+    {
+      model: 'Cloud Light',
+      output: '2.5 KW',
+      kelvin: '5600K',
+      wattage: '2500W',
+      dimming: '0-100%',
+      cri: '95+',
+      type: 'HMI',
+    },
+    {
+      model: 'Flat Light',
+      output: '--',
+      kelvin: '5600K / 3200K',
+      wattage: '--',
+      dimming: '0-100%',
+      cri: '95+',
+      type: 'HMI / Tungsten',
+    },
+    {
+      model: 'Sun Cut',
+      output: '--',
+      kelvin: '5600K',
+      wattage: '--',
+      dimming: '0-100%',
+      cri: '95+',
+      type: 'HMI',
+    },
+    {
+      model: 'Podvodní světla',
+      output: '--',
+      kelvin: '5600K / 3200K',
+      wattage: '--',
+      dimming: '0-100%',
+      cri: '95+',
+      type: 'LED / HMI',
+    },
+  ]
+
   return (
     <section className="border-y border-gray-800 bg-[#0a0a0a] py-24 px-4 md:py-32">
       <div className="mx-auto max-w-6xl">
@@ -68,7 +104,7 @@ export default function TechnicalSpecs() {
             className="mb-4 text-5xl font-bold tracking-tight md:text-6xl"
             style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 800 }}
           >
-            TECHNICAL SPECIFICATIONS
+            {t.specs.title}
           </h2>
           <div className="mx-auto h-1 w-24 bg-white" />
         </motion.div>
@@ -83,12 +119,13 @@ export default function TechnicalSpecs() {
           <table className="w-full border-collapse font-mono text-sm">
             <thead>
               <tr className="border-b-2 border-gray-700">
-                <th className="px-6 py-4 text-left text-gray-400">MODEL</th>
-                <th className="px-6 py-4 text-left text-gray-400">OUTPUT</th>
-                <th className="px-6 py-4 text-left text-gray-400">KELVIN</th>
-                <th className="px-6 py-4 text-left text-gray-400">WATTAGE</th>
-                <th className="px-6 py-4 text-left text-gray-400">DIMMING</th>
-                <th className="px-6 py-4 text-left text-gray-400">CRI</th>
+                <th className="px-6 py-4 text-left text-gray-400">{t.specs.model}</th>
+                <th className="px-6 py-4 text-left text-gray-400">{t.specs.type}</th>
+                <th className="px-6 py-4 text-left text-gray-400">{t.specs.output}</th>
+                <th className="px-6 py-4 text-left text-gray-400">{t.specs.kelvin}</th>
+                <th className="px-6 py-4 text-left text-gray-400">{t.specs.wattage}</th>
+                <th className="px-6 py-4 text-left text-gray-400">{t.specs.dimming}</th>
+                <th className="px-6 py-4 text-left text-gray-400">{t.specs.cri}</th>
               </tr>
             </thead>
             <tbody>
@@ -102,6 +139,7 @@ export default function TechnicalSpecs() {
                   className="border-b border-gray-800 transition-colors hover:bg-white/5"
                 >
                   <td className="px-6 py-4 font-semibold text-white">{spec.model}</td>
+                  <td className="px-6 py-4 text-gray-300">{spec.type}</td>
                   <td className="px-6 py-4 text-gray-300">{spec.output}</td>
                   <td className="px-6 py-4 text-gray-300">{spec.kelvin}</td>
                   <td className="px-6 py-4 text-gray-300">{spec.wattage}</td>

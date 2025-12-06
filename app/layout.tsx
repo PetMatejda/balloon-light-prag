@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Balloon Light Prag - Precision Film Lighting',
-  description: 'High-end balloon lighting solutions for professional film production. Precision lighting for DoPs and Gaffers.',
+  title: 'Balloon Light Praha',
+  description: 'Professional helium balloons for film lighting',
 }
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="cs">
       <body className="antialiased">{children}</body>
     </html>
   )
