@@ -86,17 +86,29 @@
     "flatLight": {
       "name": "Flat Light",
       "description": "Lapos világítás egyenletes fényeloszláshoz a helyszínen, ideális árnyékok kiküszöböléséhez",
-      "type": "HMI / Tungsten"
+      "type": "HMI / Tungsten",
+      "power": "Variabilis",
+      "sourceType": "HMI / Tungsten",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Igény szerint"
     },
     "sunCut": {
       "name": "Sun Cut",
       "description": "Speciális világítás napfény szimulálásához és természetes árnyékok keltéséhez",
-      "type": "HMI"
+      "type": "HMI",
+      "power": "Variabilis",
+      "sourceType": "HMI",
+      "colorTemp": "5600K",
+      "dimensions": "Igény szerint"
     },
     "underwater": {
       "name": "Vízalatti világítás",
       "description": "Vízálló világítás víz alatti forgatáshoz és nedves környezetekhez",
-      "type": "LED / HMI"
+      "type": "LED / HMI",
+      "power": "Variabilis",
+      "sourceType": "LED / HMI",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Igény szerint"
     },
     "page": {
       "title": "Technika",

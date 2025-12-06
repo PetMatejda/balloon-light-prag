@@ -86,17 +86,29 @@
     "flatLight": {
       "name": "Flat Light",
       "description": "Iluminación plana para distribución uniforme de luz en el set, ideal para eliminar sombras",
-      "type": "HMI / Tungsteno"
+      "type": "HMI / Tungsteno",
+      "power": "Variable",
+      "sourceType": "HMI / Tungsteno",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "A solicitud"
     },
     "sunCut": {
       "name": "Sun Cut",
       "description": "Iluminación especial para simular luz solar y crear sombras naturales",
-      "type": "HMI"
+      "type": "HMI",
+      "power": "Variable",
+      "sourceType": "HMI",
+      "colorTemp": "5600K",
+      "dimensions": "A solicitud"
     },
     "underwater": {
       "name": "Luces submarinas",
       "description": "Iluminación impermeable para filmación submarina y ambientes húmedos",
-      "type": "LED / HMI"
+      "type": "LED / HMI",
+      "power": "Variable",
+      "sourceType": "LED / HMI",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "A solicitud"
     },
     "page": {
       "title": "Equipo",
