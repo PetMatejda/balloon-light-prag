@@ -36,3 +36,4 @@ Váš projekt je nyní na GitHubu.
 
 **Poznámka:** Soubory v `/node_modules` a `.next` se automaticky ignorují díky `.gitignore`.
 
+

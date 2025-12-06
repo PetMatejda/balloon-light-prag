@@ -78,3 +78,4 @@ npm start
 
 The site is ready to be deployed on Vercel, Netlify, or any platform that supports Next.js.
 
+

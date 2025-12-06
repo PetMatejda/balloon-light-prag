@@ -40,3 +40,4 @@ Váš projekt je nyní na GitHubu. Můžete ho sdílet nebo pokračovat ve vývo
 
 **Poznámka:** Pokud budete požádáni o autentizaci, použijte GitHub Personal Access Token místo hesla.
 
+
