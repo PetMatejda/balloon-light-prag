@@ -41,6 +41,9 @@
     "moreInfo": "Specifiche",
     "inquire": "Richiedi",
     "viewAll": "Visualizza tutti i prodotti",
+    "detail": {
+      "usageImages": "Immagini di utilizzo"
+    },
     "specs": {
       "power": "Potenza",
       "sourceType": "Tipo di sorgente",
@@ -48,7 +51,7 @@
       "dimensions": "Dimensioni"
     },
     "balloons": {
-      "name": "Sirocco / Airstar (Sferico)",
+      "name": "Palloni sferici / Sfere",
       "description": "Palloni ad elio professionali per l'illuminazione di interni ed esterni nell'industria cinematografica. Illuminazione shadowless 360° senza flicker.",
       "type": "HMI / Tungsteno",
       "power": "1200W / 2500W / 4000W",
@@ -153,7 +156,15 @@
   },
   "gallery": {
     "title": "GALLERIA",
-    "subtitle": "PRODUZIONI IN EVIDENZA"
+    "subtitle": "PRODUZIONI IN EVIDENZA",
+    "usage": {
+      "title": "Uso dell'illuminazione durante le riprese",
+      "subtitle": "Foto delle riprese che mostrano la nostra illuminazione in azione"
+    },
+    "films": {
+      "title": "Film a cui abbiamo contribuito",
+      "subtitle": "Locandine dei progetti cinematografici a cui abbiamo contribuito"
+    }
   },
   "about": {
     "title": "Chi siamo",

@@ -41,6 +41,9 @@
     "moreInfo": "Specifications",
     "inquire": "Inquire",
     "viewAll": "View all products",
+    "detail": {
+      "usageImages": "Usage Images"
+    },
     "specs": {
       "power": "Power",
       "sourceType": "Source Type",
@@ -48,7 +51,7 @@
       "dimensions": "Dimensions"
     },
     "balloons": {
-      "name": "Sirocco / Airstar (Spherical)",
+      "name": "Spherical Balloons / Spheres",
       "description": "Professional helium balloons for lighting interiors and exteriors in the film industry. Shadowless 360° flicker-free lighting.",
       "type": "HMI / Tungsten",
       "power": "1200W / 2500W / 4000W",
@@ -153,7 +156,15 @@
   },
   "gallery": {
     "title": "GALLERY",
-    "subtitle": "FEATURED PRODUCTIONS"
+    "subtitle": "FEATURED PRODUCTIONS",
+    "usage": {
+      "title": "Light Usage During Filming",
+      "subtitle": "Photos from filming showing our lighting in action"
+    },
+    "films": {
+      "title": "Films We Contributed To",
+      "subtitle": "Posters of film projects we contributed to"
+    }
   },
   "about": {
     "title": "About us",

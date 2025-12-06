@@ -41,6 +41,9 @@
     "moreInfo": "Specifikációk",
     "inquire": "Ajánlatkérés",
     "viewAll": "Összes termék megtekintése",
+    "detail": {
+      "usageImages": "Használati képek"
+    },
     "specs": {
       "power": "Teljesítmény",
       "sourceType": "Forrás típusa",
@@ -48,7 +51,7 @@
       "dimensions": "Méretek"
     },
     "balloons": {
-      "name": "Sirocco / Airstar (Gömb alakú)",
+      "name": "Gömb alakú léggömbök / Gömbök",
       "description": "Professzionális hélium ballonok belső és külső terek megvilágításához a filmiparban. Shadowless 360° flicker-mentes világítás.",
       "type": "HMI / Tungsten",
       "power": "1200W / 2500W / 4000W",
@@ -153,7 +156,15 @@
   },
   "gallery": {
     "title": "GALÉRIA",
-    "subtitle": "KIVÁLASZTOTT PRODUKCIÓK"
+    "subtitle": "KIVÁLASZTOTT PRODUKCIÓK",
+    "usage": {
+      "title": "Világítás használata forgatás közben",
+      "subtitle": "Fotók a forgatásról, amelyek bemutatják világításunkat akcióban"
+    },
+    "films": {
+      "title": "Filmek, amelyekben részt vettünk",
+      "subtitle": "A filmprojektek poszterei, amelyekben részt vettünk"
+    }
   },
   "about": {
     "title": "Rólunk",

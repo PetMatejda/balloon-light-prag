@@ -41,6 +41,9 @@
     "moreInfo": "Specifikace",
     "inquire": "Poptat",
     "viewAll": "Zobrazit všechny produkty",
+    "detail": {
+      "usageImages": "Obrázky použití"
+    },
     "specs": {
       "power": "Výkon",
       "sourceType": "Typ zdroje",
@@ -48,7 +51,7 @@
       "dimensions": "Rozměry"
     },
     "balloons": {
-      "name": "Sirocco / Airstar (Sférické)",
+      "name": "Sférické balóny / Koule",
       "description": "Profesionální heliové balóny pro osvětlení interiérů a exteriérů ve filmovém průmyslu. Shadowless 360° osvětlení bez flickeru.",
       "type": "HMI / Tungsten",
       "power": "1200W / 2500W / 4000W",
@@ -153,7 +156,15 @@
   },
   "gallery": {
     "title": "GALERIE",
-    "subtitle": "FEATURED PRODUCTIONS"
+    "subtitle": "FEATURED PRODUCTIONS",
+    "usage": {
+      "title": "Využití světel při natáčení",
+      "subtitle": "Fotografie z natáčení ukazující naše osvětlení v akci"
+    },
+    "films": {
+      "title": "Filmy, na kterých jsme se podíleli",
+      "subtitle": "Postery projektů filmů, na kterých jsme se podíleli"
+    }
   },
   "about": {
     "title": "O nás",

@@ -41,6 +41,9 @@
     "moreInfo": "Especificaciones",
     "inquire": "Consultar",
     "viewAll": "Ver todos los productos",
+    "detail": {
+      "usageImages": "Imágenes de uso"
+    },
     "specs": {
       "power": "Potencia",
       "sourceType": "Tipo de fuente",
@@ -48,7 +51,7 @@
       "dimensions": "Dimensiones"
     },
     "balloons": {
-      "name": "Sirocco / Airstar (Esférico)",
+      "name": "Globos esféricos / Esferas",
       "description": "Globos de helio profesionales para iluminar interiores y exteriores en la industria cinematográfica. Iluminación shadowless 360° sin flicker.",
       "type": "HMI / Tungsteno",
       "power": "1200W / 2500W / 4000W",
@@ -153,7 +156,15 @@
   },
   "gallery": {
     "title": "GALERÍA",
-    "subtitle": "PRODUCCIONES DESTACADAS"
+    "subtitle": "PRODUCCIONES DESTACADAS",
+    "usage": {
+      "title": "Uso de iluminación durante el rodaje",
+      "subtitle": "Fotos del rodaje mostrando nuestra iluminación en acción"
+    },
+    "films": {
+      "title": "Películas en las que contribuimos",
+      "subtitle": "Pósters de proyectos cinematográficos en los que contribuimos"
+    }
   },
   "about": {
     "title": "Sobre nosotros",

@@ -1,14 +1,23 @@
 'use client'
 
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { useTranslations } from '@/hooks/useTranslations'
+import ProductDetailModal from './ProductDetailModal'
 
 export default function ProductShowcase() {
   const { t, locale } = useTranslations()
   const currentLocale = locale || 'cs'
+  const [selectedProduct, setSelectedProduct] = useState<any>(null)
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  const handleProductClick = (product: any) => {
+    setSelectedProduct(product)
+    setIsModalOpen(true)
+  }
 
   const products = [
     {
@@ -21,6 +30,18 @@ export default function ProductShowcase() {
       sourceType: t.products.balloons.sourceType,
       colorTemp: t.products.balloons.colorTemp,
       dimensions: t.products.balloons.dimensions,
+      usageImages: [
+        '/images/balloon.72b8c68083eb4d2c6ad5.webp',
+        '/images/film1.218a1d0efcf08e6b437b.webp',
+        '/images/civilwar.adc19be35ec1c30fab33.webp',
+      ],
+      technicalDetails: {
+        wattage: '1200W / 2500W / 4000W',
+        dimming: '0-100%',
+        cri: '95+',
+        weight: 'Variabilní dle velikosti',
+        voltage: '230V / 400V',
+      },
     },
     {
       id: 2,
@@ -32,6 +53,17 @@ export default function ProductShowcase() {
       sourceType: t.products.ledCube.sourceType,
       colorTemp: t.products.ledCube.colorTemp,
       dimensions: t.products.ledCube.dimensions,
+      usageImages: [
+        '/images/led-cube.c743afcbbb2f141d921d.webp',
+        '/images/spectre.ee4cc6aa172104cef7c1.webp',
+      ],
+      technicalDetails: {
+        wattage: '4800W',
+        dimming: '0-100%',
+        cri: '95+',
+        weight: '~50 kg',
+        voltage: '230V / 400V',
+      },
     },
     {
       id: 3,
@@ -43,6 +75,17 @@ export default function ProductShowcase() {
       sourceType: t.products.cloud.sourceType,
       colorTemp: t.products.cloud.colorTemp,
       dimensions: t.products.cloud.dimensions,
+      usageImages: [
+        '/images/cloud.b20bf445c1377f77ce34.webp',
+        '/images/terminator.87fd768205dd99bdd550.webp',
+      ],
+      technicalDetails: {
+        wattage: '2500W',
+        dimming: '0-100%',
+        cri: '95+',
+        weight: 'Variabilní',
+        voltage: '230V / 400V',
+      },
     },
     {
       id: 4,
@@ -54,6 +97,17 @@ export default function ProductShowcase() {
       sourceType: t.products.flatLight.sourceType,
       colorTemp: t.products.flatLight.colorTemp,
       dimensions: t.products.flatLight.dimensions,
+      usageImages: [
+        '/images/IMG_20200930_102505.9846e956999d102bd3eb.webp',
+        '/images/inglorious.80f3d76ebc0566b8c159.webp',
+      ],
+      technicalDetails: {
+        wattage: 'Variabilní',
+        dimming: '0-100%',
+        cri: '95+',
+        weight: 'Variabilní',
+        voltage: '230V / 400V',
+      },
     },
     {
       id: 5,
@@ -65,6 +119,17 @@ export default function ProductShowcase() {
       sourceType: t.products.sunCut.sourceType,
       colorTemp: t.products.sunCut.colorTemp,
       dimensions: t.products.sunCut.dimensions,
+      usageImages: [
+        '/images/suncut.925bf50780c4b9762413.webp',
+        '/images/volavka.4856b58e51515d8d6bd0.webp',
+      ],
+      technicalDetails: {
+        wattage: 'Variabilní',
+        dimming: '0-100%',
+        cri: '95+',
+        weight: 'Variabilní',
+        voltage: '230V / 400V',
+      },
     },
     {
       id: 6,
@@ -76,6 +141,17 @@ export default function ProductShowcase() {
       sourceType: t.products.underwater.sourceType,
       colorTemp: t.products.underwater.colorTemp,
       dimensions: t.products.underwater.dimensions,
+      usageImages: [
+        '/images/podvodni.a0455413779cdf5ffadc.webp',
+        '/images/crowSecond.9b62e1cfd595623529b3.jpg',
+      ],
+      technicalDetails: {
+        wattage: 'Variabilní',
+        dimming: '0-100%',
+        cri: '95+',
+        weight: 'Variabilní',
+        voltage: '230V / 400V',
+      },
     },
   ]
 
@@ -105,7 +181,8 @@ export default function ProductShowcase() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="group relative overflow-hidden rounded-lg border border-gray-800 bg-[#050505] transition-all hover:border-gray-700"
+              className="group relative cursor-pointer overflow-hidden rounded-lg border border-gray-800 bg-[#050505] transition-all hover:border-gray-700"
+              onClick={() => handleProductClick(product)}
             >
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
@@ -147,12 +224,24 @@ export default function ProductShowcase() {
                   </div>
                 </div>
 
-                <Link
-                  href={`/${currentLocale}/kontakt`}
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    handleProductClick(product)
+                  }}
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors"
                   style={{ color: '#FFC58F' }}
                 >
-                  {t.products.inquire || t.products.moreInfo}
+                  {t.products.moreInfo}
+                  <ArrowRight size={16} />
+                </button>
+                <Link
+                  href={`/${currentLocale}/kontakt`}
+                  onClick={(e) => e.stopPropagation()}
+                  className="ml-4 inline-flex items-center gap-2 text-sm font-semibold transition-colors"
+                  style={{ color: '#FFC58F' }}
+                >
+                  {t.products.inquire}
                   <ArrowRight size={16} />
                 </Link>
               </div>
@@ -176,6 +265,13 @@ export default function ProductShowcase() {
           </Link>
         </motion.div>
       </div>
+
+      {/* Product Detail Modal */}
+      <ProductDetailModal
+        product={selectedProduct}
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </section>
   )
 }

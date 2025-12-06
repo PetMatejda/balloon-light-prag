@@ -1,11 +1,43 @@
 'use client'
 
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { useTranslations } from '@/hooks/useTranslations'
+import ProductDetailModal from './ProductDetailModal'
 
 export default function GearShowcase() {
   const { t } = useTranslations()
+  const [selectedProduct, setSelectedProduct] = useState<any>(null)
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  const handleProductClick = (item: any) => {
+    // Map gear item to product detail format
+    const productDetail = {
+      id: item.id,
+      name: item.name,
+      image: item.image,
+      description: item.description,
+      type: item.type || '--',
+      power: item.output !== '--' ? item.output : 'Variabilní',
+      sourceType: item.type || '--',
+      colorTemp: item.kelvin !== '--' ? item.kelvin : 'Variabilní',
+      dimensions: 'Na dotaz',
+      usageImages: [
+        item.image,
+        '/images/film1.218a1d0efcf08e6b437b.webp',
+      ],
+      technicalDetails: {
+        wattage: item.output !== '--' ? item.output : 'Variabilní',
+        dimming: '0-100%',
+        cri: '95+',
+        weight: 'Variabilní',
+        voltage: '230V / 400V',
+      },
+    }
+    setSelectedProduct(productDetail)
+    setIsModalOpen(true)
+  }
 
   const gearItems = [
     {
@@ -109,7 +141,8 @@ export default function GearShowcase() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="group relative overflow-hidden border border-gray-800 bg-[#0a0a0a] transition-all duration-300 hover:border-gray-600"
+              className="group relative cursor-pointer overflow-hidden border border-gray-800 bg-[#0a0a0a] transition-all duration-300 hover:border-gray-600"
+              onClick={() => handleProductClick(item)}
             >
               {/* Technical Schematic Style Border */}
               <div className="absolute inset-0 border-2 border-white/10" />
@@ -162,6 +195,13 @@ export default function GearShowcase() {
           ))}
         </div>
       </div>
+
+      {/* Product Detail Modal */}
+      <ProductDetailModal
+        product={selectedProduct}
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </section>
   )
 }
