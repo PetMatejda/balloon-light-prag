@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { useTranslations } from '@/hooks/useTranslations'
 
+// Only project images, no product images
 const galleryImages = [
   '/images/film1.218a1d0efcf08e6b437b.webp',
   '/images/civilwar.adc19be35ec1c30fab33.webp',
@@ -13,8 +14,6 @@ const galleryImages = [
   '/images/volavka.4856b58e51515d8d6bd0.webp',
   '/images/crowSecond.9b62e1cfd595623529b3.jpg',
   '/images/crowThird.1024a05384cfac4757e4.webp',
-  '/images/podvodni.a0455413779cdf5ffadc.webp',
-  '/images/suncut.925bf50780c4b9762413.webp',
   '/images/IMG_20200930_102505.9846e956999d102bd3eb.webp',
 ]
 

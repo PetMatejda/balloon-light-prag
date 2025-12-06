@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "references": "References",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Professional film lighting",
+    "title": "BALLOON",
+    "subtitle": "LIGHT PRAHA",
+    "description": "Helium balloons for lighting interiors and exteriors in the film industry.",
+    "description2": "Yellow (tungsten), white (HMI) and combined lighting.",
+    "productsButton": "Our products",
+    "referencesButton": "References"
+  },
+  "features": {
+    "title": "Why choose Balloon Light Praha?",
+    "subtitle": "Professional solutions for film lighting with long tradition and experience",
+    "balloons": {
+      "title": "Helium balloons",
+      "description": "Professional helium balloons for lighting interiors and exteriors with high performance and quality."
+    },
+    "film": {
+      "title": "Film industry",
+      "description": "Specialization in lighting for film and television productions, commercials and documentaries."
+    },
+    "lighting": {
+      "title": "Various lighting types",
+      "description": "Yellow (tungsten), white (HMI) and combined lighting for every production."
+    },
+    "quality": {
+      "title": "Professional quality",
+      "description": "High quality and reliability for demanding film projects."
+    }
+  },
+  "products": {
+    "title": "Our products",
+    "subtitle": "Wide range of professional lighting for the film industry",
+    "moreInfo": "More information",
+    "viewAll": "View all products",
+    "balloons": {
+      "name": "Helium balloons",
+      "description": "Professional helium balloons for lighting interiors and exteriors in the film industry. We offer variants with yellow (tungsten), white (HMI) and combined lighting in powers of 1KW, 2KW, 3KW and 5KW.",
+      "type": "Tungsten / HMI / Combined"
+    },
+    "ledCube": {
+      "name": "LED Cube",
+      "description": "Modular LED cube with high power 4.8 KW and fully adjustable light color (2700K-6500K)",
+      "type": "LED"
+    },
+    "cloud": {
+      "name": "Cloud Light",
+      "description": "Soft diffused lighting with 2.5 KW power for subtle light effects and atmospheric scenes",
+      "type": "HMI"
+    },
+    "flatLight": {
+      "name": "Flat Light",
+      "description": "Flat lighting for even light distribution on set, ideal for shadow elimination",
+      "type": "HMI / Tungsten"
+    },
+    "sunCut": {
+      "name": "Sun Cut",
+      "description": "Special lighting for simulating sunlight and creating natural shadows",
+      "type": "HMI"
+    },
+    "underwater": {
+      "name": "Underwater lights",
+      "description": "Waterproof lighting for underwater filming and humid environments",
+      "type": "LED / HMI"
+    },
+    "page": {
+      "title": "Products",
+      "subtitle": "Our products",
+      "description": "We specialize in professional helium balloons for film lighting. We offer a wide range of powers and lighting types for every production.",
+      "lightingTypes": {
+        "title": "Lighting types",
+        "subtitle": "We offer different types of lighting for every production",
+        "tungsten": {
+          "title": "Tungsten (Yellow)",
+          "description": "Classic yellow lighting with warm light color (3200K), ideal for interiors and night scenes. Suitable for creating warm, natural atmosphere.",
+          "powers": "Available powers: 1KW, 2KW, 3KW, 5KW"
+        },
+        "hmi": {
+          "title": "HMI (White)",
+          "description": "White daylight with high power (5600K), perfect for exteriors and day scenes. Excellent for simulating daylight.",
+          "powers": "Available powers: 1KW, 2KW, 3KW, 5KW"
+        },
+        "combined": {
+          "title": "Combined",
+          "description": "Combination of tungsten (3200K) and HMI (5600K) for flexible lighting of various scenes and conditions. Ability to switch between both lighting types.",
+          "powers": "Available powers: 1KW, 2KW, 3KW, 5KW"
+        }
+      }
+    }
+  },
+  "gear": {
+    "title": "OUR EQUIPMENT",
+    "model": "MODEL",
+    "output": "OUTPUT",
+    "kelvin": "KELVIN"
+  },
+  "specs": {
+    "title": "TECHNICAL SPECIFICATIONS",
+    "model": "MODEL",
+    "type": "TYPE",
+    "output": "OUTPUT",
+    "kelvin": "KELVIN",
+    "wattage": "WATTAGE",
+    "dimming": "DIMMING",
+    "cri": "CRI"
+  },
+  "gallery": {
+    "title": "GALLERY",
+    "subtitle": "FEATURED PRODUCTIONS"
+  },
+  "about": {
+    "title": "About us",
+    "company": "BALLOON - light - PRAHA",
+    "description1": "We are a specialized company providing professional helium balloons for lighting interiors and exteriors, especially in the film industry. Our services are intended for film and television productions, commercials, documentaries and other audiovisual projects.",
+    "description2": "We offer a wide range of lighting techniques including yellow (tungsten), white (HMI) and combined lighting. Our equipment is designed for demanding professional projects and meets the highest quality standards.",
+    "services": {
+      "title": "Our services",
+      "rental": "Rental of helium balloons for film lighting",
+      "consulting": "Professional lighting consulting",
+      "support": "Technical support on set",
+      "solutions": "Complete lighting solutions for film productions"
+    },
+    "experience": {
+      "title": "Experience",
+      "description": "We have many years of experience in film lighting and work with leading Czech and international productions. Our equipment has been used in a number of successful film and television projects."
+    },
+    "work": {
+      "title": "Our work"
+    }
+  },
+  "references": {
+    "title": "References",
+    "subtitle": "Our projects",
+    "description": "Our lighting has been used in a number of successful film, television and commercial projects",
+    "films": {
+      "title": "Film productions",
+      "description": "Our lighting has been used in a number of successful Czech and international films."
+    },
+    "tv": {
+      "title": "Television productions",
+      "description": "We work with leading television stations on various projects."
+    },
+    "ads": {
+      "title": "Commercials and documentaries",
+      "description": "You can also find our lighting in commercials and documentaries."
+    },
+    "gallery": {
+      "title": "Gallery",
+      "subtitle": "All our projects"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Contact us for rental of professional lighting or for more information about our services",
+    "info": {
+      "title": "Contact information",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "hours": "Business hours",
+      "hoursWeekdays": "Monday - Friday: 9:00 - 17:00",
+      "hoursWeekend": "Saturday - Sunday: By appointment"
+    },
+    "form": {
+      "title": "Write to us",
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+420 XXX XXX XXX",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "submit": "Send message"
+    }
+  },
+  "footer": {
+    "company": "BALLOON LIGHT PRAHA",
+    "description": "Professional helium balloons for lighting interiors and exteriors in the film industry.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "instagram": "Follow us on Instagram for current project images",
+    "copyright": "All rights reserved."
+  },
+  "meta": {
+    "title": "Balloon Light Praha - Professional helium balloons for film lighting",
+    "description": "BALLOON - light - PRAHA - Professional helium balloons for lighting interiors and exteriors in the film industry. Yellow (tungsten), white (HMI) and combined lighting."
+  }
+}
+

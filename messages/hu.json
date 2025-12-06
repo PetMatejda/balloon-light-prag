@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Kezdőlap",
+    "about": "Rólunk",
+    "products": "Termékek",
+    "references": "Referenciák",
+    "contact": "Kapcsolat"
+  },
+  "hero": {
+    "badge": "Professzionális filmvilágítás",
+    "title": "BALLOON",
+    "subtitle": "LIGHT PRAHA",
+    "description": "Hélium ballonok belső és külső terek megvilágításához a filmiparban.",
+    "description2": "Sárga (tungsten), fehér (HMI) és kombinált világítás.",
+    "productsButton": "Termékeink",
+    "referencesButton": "Referenciák"
+  },
+  "features": {
+    "title": "Miért válassza a Balloon Light Praha-t?",
+    "subtitle": "Professzionális megoldások filmvilágításhoz hosszú hagyományokkal és tapasztalattal",
+    "balloons": {
+      "title": "Hélium ballonok",
+      "description": "Professzionális hélium ballonok belső és külső terek megvilágításához magas teljesítménnyel és minőséggel."
+    },
+    "film": {
+      "title": "Filmipar",
+      "description": "Specializálódás film- és televíziós produkciók, reklámok és dokumentumfilmek világítására."
+    },
+    "lighting": {
+      "title": "Különféle világítási típusok",
+      "description": "Sárga (tungsten), fehér (HMI) és kombinált világítás minden produkcióhoz."
+    },
+    "quality": {
+      "title": "Professzionális minőség",
+      "description": "Magas minőség és megbízhatóság igényes filmprojektekhez."
+    }
+  },
+  "products": {
+    "title": "Termékeink",
+    "subtitle": "Széles választék professzionális világítás a filmiparban",
+    "moreInfo": "További információ",
+    "viewAll": "Összes termék megtekintése",
+    "balloons": {
+      "name": "Hélium ballonok",
+      "description": "Professzionális hélium ballonok belső és külső terek megvilágításához a filmiparban. Sárga (tungsten), fehér (HMI) és kombinált világítási változatokat kínálunk 1KW, 2KW, 3KW és 5KW teljesítményben.",
+      "type": "Tungsten / HMI / Kombinált"
+    },
+    "ledCube": {
+      "name": "LED Cube",
+      "description": "Moduláris LED kocka magas 4.8 KW teljesítménnyel és teljesen állítható fényszínnel (2700K-6500K)",
+      "type": "LED"
+    },
+    "cloud": {
+      "name": "Cloud Light",
+      "description": "Lágy diffúz világítás 2.5 KW teljesítménnyel finom fényhatásokhoz és légköri jelenetekhez",
+      "type": "HMI"
+    },
+    "flatLight": {
+      "name": "Flat Light",
+      "description": "Lapos világítás egyenletes fényeloszláshoz a helyszínen, ideális árnyékok kiküszöböléséhez",
+      "type": "HMI / Tungsten"
+    },
+    "sunCut": {
+      "name": "Sun Cut",
+      "description": "Speciális világítás napfény szimulálásához és természetes árnyékok keltéséhez",
+      "type": "HMI"
+    },
+    "underwater": {
+      "name": "Vízalatti világítás",
+      "description": "Vízálló világítás víz alatti forgatáshoz és nedves környezetekhez",
+      "type": "LED / HMI"
+    },
+    "page": {
+      "title": "Termékek",
+      "subtitle": "Termékeink",
+      "description": "Professzionális hélium ballonokra specializálódunk filmvilágításhoz. Széles választékot kínálunk teljesítményekben és világítási típusokban minden produkcióhoz.",
+      "lightingTypes": {
+        "title": "Világítási típusok",
+        "subtitle": "Különféle világítási típusokat kínálunk minden produkcióhoz",
+        "tungsten": {
+          "title": "Tungsten (Sárga)",
+          "description": "Klasszikus sárga világítás meleg fényszínnel (3200K), ideális belső terekhez és éjszakai jelenetekhez. Alkalmas meleg, természetes légkör keltésére.",
+          "powers": "Elérhető teljesítmények: 1KW, 2KW, 3KW, 5KW"
+        },
+        "hmi": {
+          "title": "HMI (Fehér)",
+          "description": "Fehér nappali fény magas teljesítménnyel (5600K), tökéletes külső terekhez és nappali jelenetekhez. Kiváló nappali fény szimulálásához.",
+          "powers": "Elérhető teljesítmények: 1KW, 2KW, 3KW, 5KW"
+        },
+        "combined": {
+          "title": "Kombinált",
+          "description": "Tungsten (3200K) és HMI (5600K) kombinációja rugalmas világításhoz különféle jelenetekhez és feltételekhez. Lehetőség váltásra mindkét világítási típus között.",
+          "powers": "Elérhető teljesítmények: 1KW, 2KW, 3KW, 5KW"
+        }
+      }
+    }
+  },
+  "gear": {
+    "title": "FELSZERELÉSÜNK",
+    "model": "MODELL",
+    "output": "TELJESÍTMÉNY",
+    "kelvin": "KELVIN"
+  },
+  "specs": {
+    "title": "MŰSZAKI SPECIFIKÁCIÓK",
+    "model": "MODELL",
+    "type": "TÍPUS",
+    "output": "TELJESÍTMÉNY",
+    "kelvin": "KELVIN",
+    "wattage": "FOGYASZTÁS",
+    "dimming": "SÖTÉTÍTÉS",
+    "cri": "CRI"
+  },
+  "gallery": {
+    "title": "GALÉRIA",
+    "subtitle": "KIVÁLASZTOTT PRODUKCIÓK"
+  },
+  "about": {
+    "title": "Rólunk",
+    "company": "BALLOON - light - PRAHA",
+    "description1": "Olyan szakosodott vállalat vagyunk, amely professzionális hélium ballonokat biztosít belső és külső terek megvilágításához, különösen a filmiparban. Szolgáltatásaink film- és televíziós produkciókhoz, reklámokhoz, dokumentumfilmekhez és egyéb audiovizuális projektekhez készültek.",
+    "description2": "Széles választékot kínálunk világítási technikákból, beleértve a sárga (tungsten), fehér (HMI) és kombinált világítást. Felszerelésünk igényes professzionális projektekhez készült, és megfelel a legmagasabb minőségi szabványoknak.",
+    "services": {
+      "title": "Szolgáltatásaink",
+      "rental": "Hélium ballonok bérlése filmvilágításhoz",
+      "consulting": "Professzionális világítási tanácsadás",
+      "support": "Műszaki támogatás a helyszínen",
+      "solutions": "Komplett világítási megoldások filmprodukciókhoz"
+    },
+    "experience": {
+      "title": "Tapasztalat",
+      "description": "Sokéves tapasztalattal rendelkezünk a filmvilágítás terén, és vezető cseh és nemzetközi produkciókkal dolgozunk együtt. Felszerelésünket számos sikeres film- és televíziós projektben használták."
+    },
+    "work": {
+      "title": "Munkáink"
+    }
+  },
+  "references": {
+    "title": "Referenciák",
+    "subtitle": "Projektjeink",
+    "description": "Világításunkat számos sikeres film-, televíziós és reklámprojektben használták",
+    "films": {
+      "title": "Filmprodukciók",
+      "description": "Világításunkat számos sikeres cseh és nemzetközi filmben használták."
+    },
+    "tv": {
+      "title": "Televíziós produkciók",
+      "description": "Különféle projekteken dolgozunk együtt vezető televíziós állomásokkal."
+    },
+    "ads": {
+      "title": "Reklámok és dokumentumfilmek",
+      "description": "Világításunkat reklámokban és dokumentumfilmekben is megtalálhatja."
+    },
+    "gallery": {
+      "title": "Galéria",
+      "subtitle": "Összes projektünk"
+    }
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "subtitle": "Lépjen velünk kapcsolatba professzionális világítás bérléséhez vagy további információkért szolgáltatásainkról",
+    "info": {
+      "title": "Kapcsolati információk",
+      "phone": "Telefon",
+      "email": "Email",
+      "address": "Cím",
+      "hours": "Nyitvatartás",
+      "hoursWeekdays": "Hétfő - Péntek: 9:00 - 17:00",
+      "hoursWeekend": "Szombat - Vasárnap: Egyeztetés szerint"
+    },
+    "form": {
+      "title": "Írjon nekünk",
+      "name": "Teljes név",
+      "namePlaceholder": "Az Ön neve",
+      "email": "Email",
+      "emailPlaceholder": "az@email.hu",
+      "phone": "Telefon",
+      "phonePlaceholder": "+420 XXX XXX XXX",
+      "message": "Üzenet",
+      "messagePlaceholder": "Az Ön üzenete...",
+      "submit": "Üzenet küldése"
+    }
+  },
+  "footer": {
+    "company": "BALLOON LIGHT PRAHA",
+    "description": "Professzionális hélium ballonok belső és külső terek megvilágításához a filmiparban.",
+    "navigation": "Navigáció",
+    "contact": "Kapcsolat",
+    "instagram": "Kövessen minket Instagramon aktuális projektképekért",
+    "copyright": "Minden jog fenntartva."
+  },
+  "meta": {
+    "title": "Balloon Light Praha - Professzionális hélium ballonok filmvilágításhoz",
+    "description": "BALLOON - light - PRAHA - Professzionális hélium ballonok belső és külső terek megvilágításához a filmiparban. Sárga (tungsten), fehér (HMI) és kombinált világítás."
+  }
+}
+

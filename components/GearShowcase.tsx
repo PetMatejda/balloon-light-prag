@@ -59,7 +59,7 @@ export default function GearShowcase() {
     {
       id: 7,
       name: t.products.flatLight.name,
-      image: '/images/LED-tubs.e986582eee4743c15232.webp',
+      image: '/images/IMG_20200930_102505.9846e956999d102bd3eb.webp',
       description: t.products.flatLight.description,
       output: '--',
       kelvin: '--',

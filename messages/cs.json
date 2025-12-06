@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Domů",
+    "about": "O nás",
+    "products": "Produkty",
+    "references": "Reference",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Profesionální filmové osvětlení",
+    "title": "BALLOON",
+    "subtitle": "LIGHT PRAHA",
+    "description": "Heliové balóny pro osvětlení interiérů a exteriérů ve filmovém průmyslu.",
+    "description2": "Žluté (tungsten), bílé (HMI) a kombinované osvětlení.",
+    "productsButton": "Naše produkty",
+    "referencesButton": "Reference"
+  },
+  "features": {
+    "title": "Proč zvolit Balloon Light Praha?",
+    "subtitle": "Profesionální řešení pro filmové osvětlení s dlouholetou tradicí a zkušenostmi",
+    "balloons": {
+      "title": "Heliové balóny",
+      "description": "Profesionální heliové balóny pro osvětlení interiérů a exteriérů s vysokým výkonem a kvalitou."
+    },
+    "film": {
+      "title": "Filmový průmysl",
+      "description": "Specializace na osvětlení pro filmové a televizní produkce, reklamy a dokumentární filmy."
+    },
+    "lighting": {
+      "title": "Různé typy osvětlení",
+      "description": "Žluté (tungsten), bílé (HMI) a kombinované osvětlení pro každou produkci."
+    },
+    "quality": {
+      "title": "Profesionální kvalita",
+      "description": "Vysoká kvalita a spolehlivost pro náročné filmové projekty."
+    }
+  },
+  "products": {
+    "title": "Naše produkty",
+    "subtitle": "Široká škála profesionálního osvětlení pro filmový průmysl",
+    "moreInfo": "Více informací",
+    "viewAll": "Zobrazit všechny produkty",
+    "balloons": {
+      "name": "Heliové balóny",
+      "description": "Profesionální heliové balóny pro osvětlení interiérů a exteriérů ve filmovém průmyslu. Nabízíme varianty se žlutým (tungsten), bílým (HMI) a kombinovaným osvětlením ve výkonech 1KW, 2KW, 3KW a 5KW.",
+      "type": "Tungsten / HMI / Kombinované"
+    },
+    "ledCube": {
+      "name": "LED Cube",
+      "description": "Modulární LED kostka s vysokým výkonem 4.8 KW a plně nastavitelnou barvou světla (2700K-6500K)",
+      "type": "LED"
+    },
+    "cloud": {
+      "name": "Cloud Light",
+      "description": "Měkké difúzní osvětlení s výkonem 2.5 KW pro jemné světelné efekty a atmosférické scény",
+      "type": "HMI"
+    },
+    "flatLight": {
+      "name": "Flat Light",
+      "description": "Ploché osvětlení pro rovnoměrné rozložení světla na scéně, ideální pro eliminaci stínů",
+      "type": "HMI / Tungsten"
+    },
+    "sunCut": {
+      "name": "Sun Cut",
+      "description": "Speciální osvětlení pro simulaci slunečního světla a vytváření přirozených stínů",
+      "type": "HMI"
+    },
+    "underwater": {
+      "name": "Podvodní světla",
+      "description": "Vodotěsná osvětlení pro natáčení pod vodou a ve vlhkém prostředí",
+      "type": "LED / HMI"
+    },
+    "page": {
+      "title": "Produkty",
+      "subtitle": "Naše produkty",
+      "description": "Specializujeme se na profesionální heliové balóny pro filmové osvětlení. Nabízíme širokou škálu výkonů a typů osvětlení pro každou produkci.",
+      "lightingTypes": {
+        "title": "Typy osvětlení",
+        "subtitle": "Nabízíme různé typy osvětlení pro každou produkci",
+        "tungsten": {
+          "title": "Tungsten (Žluté)",
+          "description": "Klasické žluté osvětlení s teplou barvou světla (3200K), ideální pro interiéry a noční scény. Vhodné pro vytváření teplé, přirozené atmosféry.",
+          "powers": "Dostupné výkony: 1KW, 2KW, 3KW, 5KW"
+        },
+        "hmi": {
+          "title": "HMI (Bílé)",
+          "description": "Bílé denní světlo s vysokým výkonem (5600K), perfektní pro exteriéry a denní scény. Vynikající pro simulaci denního světla.",
+          "powers": "Dostupné výkony: 1KW, 2KW, 3KW, 5KW"
+        },
+        "combined": {
+          "title": "Kombinované",
+          "description": "Kombinace tungsten (3200K) a HMI (5600K) pro flexibilní osvětlení různých scén a podmínek. Možnost přepínání mezi oběma typy osvětlení.",
+          "powers": "Dostupné výkony: 1KW, 2KW, 3KW, 5KW"
+        }
+      }
+    }
+  },
+  "gear": {
+    "title": "NAŠE VYBAVENÍ",
+    "model": "MODEL",
+    "output": "VÝKON",
+    "kelvin": "KELVIN"
+  },
+  "specs": {
+    "title": "TECHNICKÉ SPECIFIKACE",
+    "model": "MODEL",
+    "type": "TYP",
+    "output": "VÝKON",
+    "kelvin": "KELVIN",
+    "wattage": "PŘÍKON",
+    "dimming": "STMIŇOVÁNÍ",
+    "cri": "CRI"
+  },
+  "gallery": {
+    "title": "GALLERY",
+    "subtitle": "FEATURED PRODUCTIONS"
+  },
+  "about": {
+    "title": "O nás",
+    "company": "BALLOON - light - PRAHA",
+    "description1": "Jsme specializovaná společnost poskytující profesionální heliové balóny pro osvětlení interiérů a exteriérů, zejména ve filmovém průmyslu. Naše služby jsou určeny pro filmové a televizní produkce, reklamy, dokumentární filmy a další audiovizuální projekty.",
+    "description2": "Nabízíme širokou škálu osvětlovací techniky včetně žlutého (tungsten), bílého (HMI) a kombinovaného osvětlení. Naše vybavení je navrženo pro náročné profesionální projekty a splňuje nejvyšší standardy kvality.",
+    "services": {
+      "title": "Naše služby",
+      "rental": "Pronájem heliových balónů pro filmové osvětlení",
+      "consulting": "Profesionální poradenství v oblasti osvětlení",
+      "support": "Technická podpora na place",
+      "solutions": "Kompletní řešení osvětlení pro filmové produkce"
+    },
+    "experience": {
+      "title": "Zkušenosti",
+      "description": "Máme dlouholeté zkušenosti v oblasti filmového osvětlení a spolupracujeme s předními českými i zahraničními produkcemi. Naše vybavení bylo použito v řadě úspěšných filmových a televizních projektů."
+    },
+    "work": {
+      "title": "Naše práce"
+    }
+  },
+  "references": {
+    "title": "Reference",
+    "subtitle": "Naše projekty",
+    "description": "Naše osvětlení bylo použito v řadě úspěšných filmových, televizních a reklamních projektů",
+    "films": {
+      "title": "Filmové produkce",
+      "description": "Naše osvětlení bylo použito v řadě úspěšných českých i zahraničních filmů."
+    },
+    "tv": {
+      "title": "Televizní produkce",
+      "description": "Spolupracujeme s předními televizními stanicemi na různých projektech."
+    },
+    "ads": {
+      "title": "Reklamy a dokumenty",
+      "description": "Naše osvětlení najdete také v reklamách a dokumentárních filmech."
+    },
+    "gallery": {
+      "title": "Galerie",
+      "subtitle": "Všechny naše projekty"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Kontaktujte nás pro pronájem profesionálního osvětlení nebo pro více informací o našich službách",
+    "info": {
+      "title": "Kontaktní informace",
+      "phone": "Telefon",
+      "email": "Email",
+      "address": "Adresa",
+      "hours": "Provozní doba",
+      "hoursWeekdays": "Pondělí - Pátek: 9:00 - 17:00",
+      "hoursWeekend": "Sobota - Neděle: Dle dohody"
+    },
+    "form": {
+      "title": "Napište nám",
+      "name": "Jméno a příjmení",
+      "namePlaceholder": "Vaše jméno",
+      "email": "Email",
+      "emailPlaceholder": "vas@email.cz",
+      "phone": "Telefon",
+      "phonePlaceholder": "+420 XXX XXX XXX",
+      "message": "Zpráva",
+      "messagePlaceholder": "Vaše zpráva...",
+      "submit": "Odeslat zprávu"
+    }
+  },
+  "footer": {
+    "company": "BALLOON LIGHT PRAHA",
+    "description": "Profesionální heliové balóny pro osvětlení interiérů a exteriérů ve filmovém průmyslu.",
+    "navigation": "Navigace",
+    "contact": "Kontakt",
+    "instagram": "Sledujte nás na Instagramu pro aktuální obrázky z projektů",
+    "copyright": "Všechna práva vyhrazena."
+  },
+  "meta": {
+    "title": "Balloon Light Praha - Profesionální heliové balóny pro filmové osvětlení",
+    "description": "BALLOON - light - PRAHA - Profesionální heliové balóny pro osvětlení interiérů a exteriérů ve filmovém průmyslu. Žluté (tungsten), bílé (HMI) a kombinované osvětlení."
+  }
+}
+

@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "products": "Prodotti",
+    "references": "Referenze",
+    "contact": "Contatto"
+  },
+  "hero": {
+    "badge": "Illuminazione cinematografica professionale",
+    "title": "BALLOON",
+    "subtitle": "LIGHT PRAHA",
+    "description": "Palloni ad elio per l'illuminazione di interni ed esterni nell'industria cinematografica.",
+    "description2": "Illuminazione gialla (tungsteno), bianca (HMI) e combinata.",
+    "productsButton": "I nostri prodotti",
+    "referencesButton": "Referenze"
+  },
+  "features": {
+    "title": "Perché scegliere Balloon Light Praha?",
+    "subtitle": "Soluzioni professionali per l'illuminazione cinematografica con lunga tradizione ed esperienza",
+    "balloons": {
+      "title": "Palloni ad elio",
+      "description": "Palloni ad elio professionali per l'illuminazione di interni ed esterni con alte prestazioni e qualità."
+    },
+    "film": {
+      "title": "Industria cinematografica",
+      "description": "Specializzazione nell'illuminazione per produzioni cinematografiche e televisive, spot pubblicitari e documentari."
+    },
+    "lighting": {
+      "title": "Vari tipi di illuminazione",
+      "description": "Illuminazione gialla (tungsteno), bianca (HMI) e combinata per ogni produzione."
+    },
+    "quality": {
+      "title": "Qualità professionale",
+      "description": "Alta qualità e affidabilità per progetti cinematografici impegnativi."
+    }
+  },
+  "products": {
+    "title": "I nostri prodotti",
+    "subtitle": "Ampia gamma di illuminazione professionale per l'industria cinematografica",
+    "moreInfo": "Maggiori informazioni",
+    "viewAll": "Visualizza tutti i prodotti",
+    "balloons": {
+      "name": "Palloni ad elio",
+      "description": "Palloni ad elio professionali per l'illuminazione di interni ed esterni nell'industria cinematografica. Offriamo varianti con illuminazione gialla (tungsteno), bianca (HMI) e combinata in potenze di 1KW, 2KW, 3KW e 5KW.",
+      "type": "Tungsteno / HMI / Combinata"
+    },
+    "ledCube": {
+      "name": "LED Cube",
+      "description": "Cubo LED modulare con alta potenza di 4.8 KW e colore della luce completamente regolabile (2700K-6500K)",
+      "type": "LED"
+    },
+    "cloud": {
+      "name": "Cloud Light",
+      "description": "Illuminazione diffusa morbida con potenza di 2.5 KW per effetti di luce sottili e scene atmosferiche",
+      "type": "HMI"
+    },
+    "flatLight": {
+      "name": "Flat Light",
+      "description": "Illuminazione piatta per distribuzione uniforme della luce sul set, ideale per eliminare ombre",
+      "type": "HMI / Tungsteno"
+    },
+    "sunCut": {
+      "name": "Sun Cut",
+      "description": "Illuminazione speciale per simulare la luce solare e creare ombre naturali",
+      "type": "HMI"
+    },
+    "underwater": {
+      "name": "Luci subacquee",
+      "description": "Illuminazione impermeabile per riprese subacquee e ambienti umidi",
+      "type": "LED / HMI"
+    },
+    "page": {
+      "title": "Prodotti",
+      "subtitle": "I nostri prodotti",
+      "description": "Ci specializziamo in palloni ad elio professionali per l'illuminazione cinematografica. Offriamo un'ampia gamma di potenze e tipi di illuminazione per ogni produzione.",
+      "lightingTypes": {
+        "title": "Tipi di illuminazione",
+        "subtitle": "Offriamo diversi tipi di illuminazione per ogni produzione",
+        "tungsten": {
+          "title": "Tungsteno (Gialla)",
+          "description": "Illuminazione gialla classica con colore della luce caldo (3200K), ideale per interni e scene notturne. Adatta per creare un'atmosfera calda e naturale.",
+          "powers": "Potenze disponibili: 1KW, 2KW, 3KW, 5KW"
+        },
+        "hmi": {
+          "title": "HMI (Bianca)",
+          "description": "Luce bianca diurna ad alta potenza (5600K), perfetta per esterni e scene diurne. Eccellente per simulare la luce del giorno.",
+          "powers": "Potenze disponibili: 1KW, 2KW, 3KW, 5KW"
+        },
+        "combined": {
+          "title": "Combinata",
+          "description": "Combinazione di tungsteno (3200K) e HMI (5600K) per un'illuminazione flessibile di varie scene e condizioni. Possibilità di passare tra entrambi i tipi di illuminazione.",
+          "powers": "Potenze disponibili: 1KW, 2KW, 3KW, 5KW"
+        }
+      }
+    }
+  },
+  "gear": {
+    "title": "LA NOSTRA ATTREZZATURA",
+    "model": "MODELLO",
+    "output": "POTENZA",
+    "kelvin": "KELVIN"
+  },
+  "specs": {
+    "title": "SPECIFICHE TECNICHE",
+    "model": "MODELLO",
+    "type": "TIPO",
+    "output": "POTENZA",
+    "kelvin": "KELVIN",
+    "wattage": "CONSUMO",
+    "dimming": "DIMMER",
+    "cri": "CRI"
+  },
+  "gallery": {
+    "title": "GALLERIA",
+    "subtitle": "PRODUZIONI IN EVIDENZA"
+  },
+  "about": {
+    "title": "Chi siamo",
+    "company": "BALLOON - light - PRAHA",
+    "description1": "Siamo un'azienda specializzata che fornisce palloni ad elio professionali per l'illuminazione di interni ed esterni, in particolare nell'industria cinematografica. I nostri servizi sono destinati a produzioni cinematografiche e televisive, spot pubblicitari, documentari e altri progetti audiovisivi.",
+    "description2": "Offriamo un'ampia gamma di tecniche di illuminazione, inclusa l'illuminazione gialla (tungsteno), bianca (HMI) e combinata. La nostra attrezzatura è progettata per progetti professionali impegnativi e soddisfa i più alti standard di qualità.",
+    "services": {
+      "title": "I nostri servizi",
+      "rental": "Noleggio di palloni ad elio per l'illuminazione cinematografica",
+      "consulting": "Consulenza professionale in illuminazione",
+      "support": "Supporto tecnico sul set",
+      "solutions": "Soluzioni complete di illuminazione per produzioni cinematografiche"
+    },
+    "experience": {
+      "title": "Esperienza",
+      "description": "Abbiamo molti anni di esperienza nell'illuminazione cinematografica e lavoriamo con produzioni ceche e internazionali leader. La nostra attrezzatura è stata utilizzata in una serie di progetti cinematografici e televisivi di successo."
+    },
+    "work": {
+      "title": "Il nostro lavoro"
+    }
+  },
+  "references": {
+    "title": "Referenze",
+    "subtitle": "I nostri progetti",
+    "description": "La nostra illuminazione è stata utilizzata in una serie di progetti cinematografici, televisivi e pubblicitari di successo",
+    "films": {
+      "title": "Produzioni cinematografiche",
+      "description": "La nostra illuminazione è stata utilizzata in una serie di film cechi e internazionali di successo."
+    },
+    "tv": {
+      "title": "Produzioni televisive",
+      "description": "Lavoriamo con emittenti televisive leader su vari progetti."
+    },
+    "ads": {
+      "title": "Spot pubblicitari e documentari",
+      "description": "Puoi anche trovare la nostra illuminazione in spot pubblicitari e documentari."
+    },
+    "gallery": {
+      "title": "Galleria",
+      "subtitle": "Tutti i nostri progetti"
+    }
+  },
+  "contact": {
+    "title": "Contatto",
+    "subtitle": "Contattaci per il noleggio di illuminazione professionale o per maggiori informazioni sui nostri servizi",
+    "info": {
+      "title": "Informazioni di contatto",
+      "phone": "Telefono",
+      "email": "Email",
+      "address": "Indirizzo",
+      "hours": "Orari di apertura",
+      "hoursWeekdays": "Lunedì - Venerdì: 9:00 - 17:00",
+      "hoursWeekend": "Sabato - Domenica: Su appuntamento"
+    },
+    "form": {
+      "title": "Scrivici",
+      "name": "Nome completo",
+      "namePlaceholder": "Il tuo nome",
+      "email": "Email",
+      "emailPlaceholder": "tuo@email.it",
+      "phone": "Telefono",
+      "phonePlaceholder": "+420 XXX XXX XXX",
+      "message": "Messaggio",
+      "messagePlaceholder": "Il tuo messaggio...",
+      "submit": "Invia messaggio"
+    }
+  },
+  "footer": {
+    "company": "BALLOON LIGHT PRAHA",
+    "description": "Palloni ad elio professionali per l'illuminazione di interni ed esterni nell'industria cinematografica.",
+    "navigation": "Navigazione",
+    "contact": "Contatto",
+    "instagram": "Seguici su Instagram per immagini aggiornate dei progetti",
+    "copyright": "Tutti i diritti riservati."
+  },
+  "meta": {
+    "title": "Balloon Light Praha - Palloni ad elio professionali per l'illuminazione cinematografica",
+    "description": "BALLOON - light - PRAHA - Palloni ad elio professionali per l'illuminazione di interni ed esterni nell'industria cinematografica. Illuminazione gialla (tungsteno), bianca (HMI) e combinata."
+  }
+}
+

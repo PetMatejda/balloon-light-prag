@@ -2,8 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import LangSetter from '@/components/LangSetter'
-import { locales, defaultLocale } from '@/i18n-config'
+import { locales } from '@/i18n-config'
 import { getTranslations } from '@/lib/translations'
 
 export function generateStaticParams() {
@@ -39,7 +38,6 @@ export default async function LocaleLayout({
 
   return (
     <>
-      <LangSetter />
       <Header />
       <main className="pt-16">{children}</main>
       <Footer />
