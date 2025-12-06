@@ -109,4 +109,29 @@ The site is ready to be deployed on Vercel, Netlify, or any platform that suppor
 
 For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md)
 
+## Automatické commity na GitHub
+
+Projekt je nastaven pro automatické commity a pushy na GitHub. Při jakýchkoli změnách v projektu jsou změny automaticky commitovány a pushnuty na GitHub.
+
+### Automatické commity
+
+- **Git Hook**: Po každém commitu se automaticky provede push na GitHub (`.git/hooks/post-commit`)
+- **Skripty**: K dispozici jsou skripty pro ruční commit a push:
+  - `auto-commit.ps1` - PowerShell skript pro Windows
+  - `auto-commit.sh` - Bash skript pro Linux/Mac
+
+### Použití skriptů
+
+**PowerShell (Windows):**
+```powershell
+.\auto-commit.ps1 "Popis změn"
+```
+
+**Bash (Linux/Mac):**
+```bash
+./auto-commit.sh "Popis změn"
+```
+
+Pokud není zadána zpráva, použije se výchozí "Automatický commit změn".
+
 
