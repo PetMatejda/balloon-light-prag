@@ -2,18 +2,18 @@
   "nav": {
     "home": "Domů",
     "about": "O nás",
-    "products": "Produkty",
-    "references": "Reference",
+    "products": "Technika",
+    "references": "Galerie",
     "contact": "Kontakt"
   },
   "hero": {
     "badge": "Profesionální filmové osvětlení",
     "title": "BALLOON",
-    "subtitle": "LIGHT PRAHA",
-    "description": "Heliové balóny pro osvětlení interiérů a exteriérů ve filmovém průmyslu.",
-    "description2": "Žluté (tungsten), bílé (HMI) a kombinované osvětlení.",
-    "productsButton": "Naše produkty",
-    "referencesButton": "Reference"
+    "subtitle": "LIGHT PRAG",
+    "description": "BALLOON LIGHT PRAG: Specializovaná osvětlovací technika pro film a reklamu.",
+    "description2": "Shadowless 360° light. Flicker-free. HMI & Tungsten.",
+    "productsButton": "Technika",
+    "referencesButton": "Galerie"
   },
   "features": {
     "title": "Proč zvolit Balloon Light Praha?",
@@ -36,43 +36,83 @@
     }
   },
   "products": {
-    "title": "Naše produkty",
-    "subtitle": "Široká škála profesionálního osvětlení pro filmový průmysl",
-    "moreInfo": "Více informací",
+    "title": "Technika",
+    "subtitle": "Specializovaná osvětlovací technika pro film a reklamu",
+    "moreInfo": "Specifikace",
+    "inquire": "Poptat",
     "viewAll": "Zobrazit všechny produkty",
+    "specs": {
+      "power": "Výkon",
+      "sourceType": "Typ zdroje",
+      "colorTemp": "Teplota",
+      "dimensions": "Rozměry"
+    },
     "balloons": {
-      "name": "Heliové balóny",
-      "description": "Profesionální heliové balóny pro osvětlení interiérů a exteriérů ve filmovém průmyslu. Nabízíme varianty se žlutým (tungsten), bílým (HMI) a kombinovaným osvětlením ve výkonech 1KW, 2KW, 3KW a 5KW.",
-      "type": "Tungsten / HMI / Kombinované"
+      "name": "Sirocco / Airstar (Sférické)",
+      "description": "Profesionální heliové balóny pro osvětlení interiérů a exteriérů ve filmovém průmyslu. Shadowless 360° osvětlení bez flickeru.",
+      "type": "HMI / Tungsten",
+      "power": "1200W / 2500W / 4000W",
+      "sourceType": "HMI / Tungsten (Halogen)",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Průměr: 200-300 cm"
     },
     "ledCube": {
       "name": "LED Cube",
       "description": "Modulární LED kostka s vysokým výkonem 4.8 KW a plně nastavitelnou barvou světla (2700K-6500K)",
-      "type": "LED"
+      "type": "LED",
+      "power": "4800W",
+      "sourceType": "LED",
+      "colorTemp": "2700K-6500K",
+      "dimensions": "64x64x64 cm"
+    },
+    "tube": {
+      "name": "Sirocco Tube / Airstar Tube",
+      "description": "Válecové balóny pro osvětlení v nižších stropních výškách a tunelech. Shadowless 360° osvětlení.",
+      "type": "HMI / Tungsten",
+      "power": "1200W / 2500W / 4000W",
+      "sourceType": "HMI / Tungsten (Halogen)",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Průměr: 150-200 cm, Délka: 300-500 cm"
     },
     "cloud": {
-      "name": "Cloud Light",
-      "description": "Měkké difúzní osvětlení s výkonem 2.5 KW pro jemné světelné efekty a atmosférické scény",
-      "type": "HMI"
+      "name": "Cloud / Pad Light",
+      "description": "Ploché difúzní osvětlení s výkonem 2.5 KW pro jemné světelné efekty a atmosférické scény",
+      "type": "HMI",
+      "power": "2500W",
+      "sourceType": "HMI",
+      "colorTemp": "5600K",
+      "dimensions": "Průměr: 250-300 cm"
     },
     "flatLight": {
       "name": "Flat Light",
       "description": "Ploché osvětlení pro rovnoměrné rozložení světla na scéně, ideální pro eliminaci stínů",
-      "type": "HMI / Tungsten"
+      "type": "HMI / Tungsten",
+      "power": "Variabilní",
+      "sourceType": "HMI / Tungsten",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Na dotaz"
     },
     "sunCut": {
       "name": "Sun Cut",
       "description": "Speciální osvětlení pro simulaci slunečního světla a vytváření přirozených stínů",
-      "type": "HMI"
+      "type": "HMI",
+      "power": "Variabilní",
+      "sourceType": "HMI",
+      "colorTemp": "5600K",
+      "dimensions": "Na dotaz"
     },
     "underwater": {
       "name": "Podvodní světla",
       "description": "Vodotěsná osvětlení pro natáčení pod vodou a ve vlhkém prostředí",
-      "type": "LED / HMI"
+      "type": "LED / HMI",
+      "power": "Variabilní",
+      "sourceType": "LED / HMI",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Na dotaz"
     },
     "page": {
-      "title": "Produkty",
-      "subtitle": "Naše produkty",
+      "title": "Technika",
+      "subtitle": "Specializovaná osvětlovací technika",
       "description": "Specializujeme se na profesionální heliové balóny pro filmové osvětlení. Nabízíme širokou škálu výkonů a typů osvětlení pro každou produkci.",
       "lightingTypes": {
         "title": "Typy osvětlení",
@@ -112,14 +152,14 @@
     "cri": "CRI"
   },
   "gallery": {
-    "title": "GALLERY",
+    "title": "GALERIE",
     "subtitle": "FEATURED PRODUCTIONS"
   },
   "about": {
     "title": "O nás",
-    "company": "BALLOON - light - PRAHA",
-    "description1": "Jsme specializovaná společnost poskytující profesionální heliové balóny pro osvětlení interiérů a exteriérů, zejména ve filmovém průmyslu. Naše služby jsou určeny pro filmové a televizní produkce, reklamy, dokumentární filmy a další audiovizuální projekty.",
-    "description2": "Nabízíme širokou škálu osvětlovací techniky včetně žlutého (tungsten), bílého (HMI) a kombinovaného osvětlení. Naše vybavení je navrženo pro náročné profesionální projekty a splňuje nejvyšší standardy kvality.",
+    "company": "BALLOON LIGHT PRAG",
+    "description1": "Jsme partnerem pro kameramany a gaffery. Nabízíme glare-free osvětlení pro noční exteriéry, interiéry a eventy. Více než 15 let zkušeností na setu.",
+    "description2": "Specializujeme se na shadowless 360° osvětlení bez flickeru. Naše vybavení je navrženo pro náročné profesionální projekty a splňuje nejvyšší standardy kvality pro high-end cinema produkce.",
     "services": {
       "title": "Naše služby",
       "rental": "Pronájem heliových balónů pro filmové osvětlení",
@@ -157,8 +197,9 @@
     }
   },
   "contact": {
-    "title": "Kontakt",
-    "subtitle": "Kontaktujte nás pro pronájem profesionálního osvětlení nebo pro více informací o našich službách",
+    "title": "Booking & Rental",
+    "subtitle": "Zavolejte nám přímo na plac",
+    "bookingTitle": "Booking & Rental",
     "info": {
       "title": "Kontaktní informace",
       "phone": "Telefon",
@@ -190,8 +231,8 @@
     "copyright": "Všechna práva vyhrazena."
   },
   "meta": {
-    "title": "Balloon Light Praha - Profesionální heliové balóny pro filmové osvětlení",
-    "description": "BALLOON - light - PRAHA - Profesionální heliové balóny pro osvětlení interiérů a exteriérů ve filmovém průmyslu. Žluté (tungsten), bílé (HMI) a kombinované osvětlení."
+    "title": "Balloon Light Prag - Specializovaná osvětlovací technika pro film a reklamu",
+    "description": "BALLOON LIGHT PRAG - Specializovaná osvětlovací technika pro film a reklamu. Shadowless 360° light. Flicker-free. HMI & Tungsten."
   }
 }
 

@@ -18,7 +18,9 @@ export default function ContactContent() {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="mb-4 text-5xl font-bold tracking-tight md:text-7xl">{t.contact.title}</h1>
+            <h1 className="mb-4 text-5xl font-bold uppercase tracking-tight md:text-7xl" style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 800 }}>
+              {t.contact.bookingTitle || t.contact.title}
+            </h1>
             <p className="mx-auto max-w-2xl text-lg text-gray-400">
               {t.contact.subtitle}
             </p>

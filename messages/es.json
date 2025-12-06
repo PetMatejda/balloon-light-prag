@@ -2,18 +2,18 @@
   "nav": {
     "home": "Inicio",
     "about": "Sobre nosotros",
-    "products": "Productos",
-    "references": "Referencias",
+    "products": "Equipo",
+    "references": "Galería",
     "contact": "Contacto"
   },
   "hero": {
     "badge": "Iluminación cinematográfica profesional",
     "title": "BALLOON",
-    "subtitle": "LIGHT PRAHA",
-    "description": "Globos de helio para iluminar interiores y exteriores en la industria cinematográfica.",
-    "description2": "Iluminación amarilla (tungsteno), blanca (HMI) y combinada.",
-    "productsButton": "Nuestros productos",
-    "referencesButton": "Referencias"
+    "subtitle": "LIGHT PRAG",
+    "description": "BALLOON LIGHT PRAG: Equipamiento de iluminación especializado para cine y publicidad.",
+    "description2": "Shadowless 360° light. Flicker-free. HMI & Tungsten.",
+    "productsButton": "Equipo",
+    "referencesButton": "Galería"
   },
   "features": {
     "title": "¿Por qué elegir Balloon Light Praha?",
@@ -36,24 +36,52 @@
     }
   },
   "products": {
-    "title": "Nuestros productos",
-    "subtitle": "Amplia gama de iluminación profesional para la industria cinematográfica",
-    "moreInfo": "Más información",
+    "title": "Equipo",
+    "subtitle": "Equipamiento de iluminación especializado para cine y publicidad",
+    "moreInfo": "Especificaciones",
+    "inquire": "Consultar",
     "viewAll": "Ver todos los productos",
+    "specs": {
+      "power": "Potencia",
+      "sourceType": "Tipo de fuente",
+      "colorTemp": "Temperatura",
+      "dimensions": "Dimensiones"
+    },
     "balloons": {
-      "name": "Globos de helio",
-      "description": "Globos de helio profesionales para iluminar interiores y exteriores en la industria cinematográfica. Ofrecemos variantes con iluminación amarilla (tungsteno), blanca (HMI) y combinada en potencias de 1KW, 2KW, 3KW y 5KW.",
-      "type": "Tungsteno / HMI / Combinada"
+      "name": "Sirocco / Airstar (Esférico)",
+      "description": "Globos de helio profesionales para iluminar interiores y exteriores en la industria cinematográfica. Iluminación shadowless 360° sin flicker.",
+      "type": "HMI / Tungsteno",
+      "power": "1200W / 2500W / 4000W",
+      "sourceType": "HMI / Tungsteno (Halógeno)",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Diámetro: 200-300 cm"
     },
     "ledCube": {
       "name": "LED Cube",
       "description": "Cubo LED modular con alta potencia de 4.8 KW y color de luz totalmente ajustable (2700K-6500K)",
-      "type": "LED"
+      "type": "LED",
+      "power": "4800W",
+      "sourceType": "LED",
+      "colorTemp": "2700K-6500K",
+      "dimensions": "64x64x64 cm"
+    },
+    "tube": {
+      "name": "Sirocco Tube / Airstar Tube",
+      "description": "Globos cilíndricos para iluminación en techos bajos y túneles. Iluminación shadowless 360°.",
+      "type": "HMI / Tungsteno",
+      "power": "1200W / 2500W / 4000W",
+      "sourceType": "HMI / Tungsteno (Halógeno)",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Diámetro: 150-200 cm, Longitud: 300-500 cm"
     },
     "cloud": {
-      "name": "Cloud Light",
-      "description": "Iluminación difusa suave con potencia de 2.5 KW para efectos de luz sutiles y escenas atmosféricas",
-      "type": "HMI"
+      "name": "Cloud / Pad Light",
+      "description": "Iluminación difusa plana con potencia de 2.5 KW para efectos de luz sutiles y escenas atmosféricas",
+      "type": "HMI",
+      "power": "2500W",
+      "sourceType": "HMI",
+      "colorTemp": "5600K",
+      "dimensions": "Diámetro: 250-300 cm"
     },
     "flatLight": {
       "name": "Flat Light",
@@ -71,8 +99,8 @@
       "type": "LED / HMI"
     },
     "page": {
-      "title": "Productos",
-      "subtitle": "Nuestros productos",
+      "title": "Equipo",
+      "subtitle": "Equipamiento de iluminación especializado",
       "description": "Nos especializamos en globos de helio profesionales para iluminación cinematográfica. Ofrecemos una amplia gama de potencias y tipos de iluminación para cada producción.",
       "lightingTypes": {
         "title": "Tipos de iluminación",
@@ -117,9 +145,9 @@
   },
   "about": {
     "title": "Sobre nosotros",
-    "company": "BALLOON - light - PRAHA",
-    "description1": "Somos una empresa especializada que proporciona globos de helio profesionales para iluminar interiores y exteriores, especialmente en la industria cinematográfica. Nuestros servicios están destinados a producciones cinematográficas y televisivas, comerciales, documentales y otros proyectos audiovisuales.",
-    "description2": "Ofrecemos una amplia gama de técnicas de iluminación, incluyendo iluminación amarilla (tungsteno), blanca (HMI) y combinada. Nuestro equipo está diseñado para proyectos profesionales exigentes y cumple con los más altos estándares de calidad.",
+    "company": "BALLOON LIGHT PRAG",
+    "description1": "Somos socios para directores de fotografía y gaffers. Ofrecemos iluminación sin deslumbramiento para exteriores nocturnos, interiores y eventos. Más de 15 años de experiencia en el set.",
+    "description2": "Nos especializamos en iluminación shadowless 360° sin flicker. Nuestro equipo está diseñado para proyectos profesionales exigentes y cumple con los más altos estándares de calidad para producciones cinematográficas de alta gama.",
     "services": {
       "title": "Nuestros servicios",
       "rental": "Alquiler de globos de helio para iluminación cinematográfica",
@@ -157,8 +185,9 @@
     }
   },
   "contact": {
-    "title": "Contacto",
-    "subtitle": "Contáctenos para alquiler de iluminación profesional o para más información sobre nuestros servicios",
+    "title": "Booking & Rental",
+    "subtitle": "Llámenos directamente en el set",
+    "bookingTitle": "Booking & Rental",
     "info": {
       "title": "Información de contacto",
       "phone": "Teléfono",
@@ -190,8 +219,8 @@
     "copyright": "Todos los derechos reservados."
   },
   "meta": {
-    "title": "Balloon Light Praha - Globos de helio profesionales para iluminación cinematográfica",
-    "description": "BALLOON - light - PRAHA - Globos de helio profesionales para iluminar interiores y exteriores en la industria cinematográfica. Iluminación amarilla (tungsteno), blanca (HMI) y combinada."
+    "title": "Balloon Light Prag - Equipamiento de iluminación especializado para cine y publicidad",
+    "description": "BALLOON LIGHT PRAG - Equipamiento de iluminación especializado para cine y publicidad. Shadowless 360° light. Flicker-free. HMI & Tungsten."
   }
 }
 

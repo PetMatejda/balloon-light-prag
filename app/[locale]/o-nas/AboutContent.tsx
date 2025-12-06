@@ -25,7 +25,8 @@ export default function AboutContent() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl font-bold tracking-tight md:text-7xl"
+            className="text-5xl font-bold uppercase tracking-tight md:text-7xl"
+            style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 800 }}
           >
             {t.about.title}
           </motion.h1>
@@ -42,33 +43,39 @@ export default function AboutContent() {
             transition={{ duration: 0.8 }}
             className="prose prose-invert max-w-none"
           >
-            <h2 className="mb-6 text-4xl font-bold">{t.about.company}</h2>
+            <h2 className="mb-6 text-4xl font-bold uppercase" style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 800 }}>
+              {t.about.company}
+            </h2>
             <p className="mb-6 text-lg leading-relaxed text-gray-300">
               {t.about.description1}
             </p>
             <p className="mb-6 text-lg leading-relaxed text-gray-300">
               {t.about.description2}
             </p>
-            <h3 className="mb-4 mt-12 text-2xl font-bold">{t.about.services.title}</h3>
+            <h3 className="mb-4 mt-12 text-2xl font-bold uppercase" style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 700 }}>
+              {t.about.services.title}
+            </h3>
             <ul className="mb-6 space-y-3 text-gray-300">
               <li className="flex items-start">
-                <span className="mr-3 text-yellow-400">•</span>
+                <span className="mr-3" style={{ color: '#FFC58F' }}>•</span>
                 <span>{t.about.services.rental}</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-3 text-yellow-400">•</span>
+                <span className="mr-3" style={{ color: '#FFC58F' }}>•</span>
                 <span>{t.about.services.consulting}</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-3 text-yellow-400">•</span>
+                <span className="mr-3" style={{ color: '#FFC58F' }}>•</span>
                 <span>{t.about.services.support}</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-3 text-yellow-400">•</span>
+                <span className="mr-3" style={{ color: '#FFC58F' }}>•</span>
                 <span>{t.about.services.solutions}</span>
               </li>
             </ul>
-            <h3 className="mb-4 mt-12 text-2xl font-bold">{t.about.experience.title}</h3>
+            <h3 className="mb-4 mt-12 text-2xl font-bold uppercase" style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 700 }}>
+              {t.about.experience.title}
+            </h3>
             <p className="mb-6 text-lg leading-relaxed text-gray-300">
               {t.about.experience.description}
             </p>
@@ -79,7 +86,9 @@ export default function AboutContent() {
       {/* Image Gallery Section */}
       <section className="border-y border-gray-800 bg-[#0a0a0a] py-24 px-4">
         <div className="mx-auto max-w-7xl">
-          <h2 className="mb-12 text-center text-4xl font-bold">{t.about.work.title}</h2>
+          <h2 className="mb-12 text-center text-4xl font-bold uppercase" style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 800 }}>
+            {t.about.work.title}
+          </h2>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
               <Image

@@ -49,9 +49,10 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative text-sm font-medium transition-colors ${
+                className={`relative text-sm font-medium uppercase transition-colors ${
                   isActive ? 'text-white' : 'text-gray-400 hover:text-white'
                 }`}
+                style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 600, letterSpacing: '0.05em' }}
               >
                 {item.label}
                 {isActive && (
@@ -95,11 +96,12 @@ export default function Header() {
                     key={item.href}
                     href={item.href}
                     onClick={() => setMobileMenuOpen(false)}
-                    className={`px-4 py-2 text-base font-medium transition-colors ${
+                    className={`px-4 py-2 text-base font-medium uppercase transition-colors ${
                       isActive
                         ? 'text-white bg-white/10'
                         : 'text-gray-400 hover:text-white hover:bg-white/5'
                     }`}
+                    style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 600, letterSpacing: '0.05em' }}
                   >
                     {item.label}
                   </Link>

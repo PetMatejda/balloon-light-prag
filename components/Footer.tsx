@@ -68,7 +68,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
+          {/* Contact Info - Call Sheet Style */}
           <div>
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-400">
               {t.footer.contact}
@@ -76,13 +76,13 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-gray-400">
               <li className="flex items-center space-x-2">
                 <Phone size={16} className="text-gray-500" />
-                <a href="tel:+420603452130" className="hover:text-white transition-colors">
+                <a href="tel:+420603452130" className="hover:text-white transition-colors text-2xl font-bold font-mono" style={{ color: '#FFC58F' }}>
                   +420 603 452 130
                 </a>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={16} className="text-gray-500" />
-                <a href="mailto:info@balloonlightprag.cz" className="hover:text-white transition-colors">
+                <a href="mailto:info@balloonlightprag.cz" className="hover:text-white transition-colors font-mono">
                   info@balloonlightprag.cz
                 </a>
               </li>

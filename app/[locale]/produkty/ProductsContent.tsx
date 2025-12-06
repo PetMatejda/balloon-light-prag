@@ -27,7 +27,8 @@ export default function ProductsContent() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl font-bold tracking-tight md:text-7xl"
+            className="text-5xl font-bold uppercase tracking-tight md:text-7xl"
+            style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 800 }}
           >
             {t.products.page.title}
           </motion.h1>
@@ -44,7 +45,9 @@ export default function ProductsContent() {
             transition={{ duration: 0.8 }}
             className="mb-12 text-center"
           >
-            <h2 className="mb-4 text-3xl font-bold">{t.products.page.subtitle}</h2>
+            <h2 className="mb-4 text-3xl font-bold uppercase" style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 700 }}>
+              {t.products.page.subtitle}
+            </h2>
             <p className="text-lg text-gray-400">
               {t.products.page.description}
             </p>
@@ -68,7 +71,9 @@ export default function ProductsContent() {
             transition={{ duration: 0.8 }}
             className="mb-12 text-center"
           >
-            <h2 className="mb-4 text-4xl font-bold">{t.products.page.lightingTypes.title}</h2>
+            <h2 className="mb-4 text-4xl font-bold uppercase" style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 800 }}>
+              {t.products.page.lightingTypes.title}
+            </h2>
             <p className="text-lg text-gray-400">
               {t.products.page.lightingTypes.subtitle}
             </p>
@@ -83,7 +88,9 @@ export default function ProductsContent() {
               className="rounded-lg border border-gray-800 bg-[#050505] p-8"
             >
               <div className="mb-4 text-4xl">💡</div>
-              <h3 className="mb-3 text-2xl font-bold">{t.products.page.lightingTypes.tungsten.title}</h3>
+              <h3 className="mb-3 text-2xl font-bold uppercase" style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 700 }}>
+                {t.products.page.lightingTypes.tungsten.title}
+              </h3>
               <p className="mb-4 text-gray-400">
                 {t.products.page.lightingTypes.tungsten.description}
               </p>
@@ -100,7 +107,9 @@ export default function ProductsContent() {
               className="rounded-lg border border-gray-800 bg-[#050505] p-8"
             >
               <div className="mb-4 text-4xl">⚡</div>
-              <h3 className="mb-3 text-2xl font-bold">{t.products.page.lightingTypes.hmi.title}</h3>
+              <h3 className="mb-3 text-2xl font-bold uppercase" style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 700 }}>
+                {t.products.page.lightingTypes.hmi.title}
+              </h3>
               <p className="mb-4 text-gray-400">
                 {t.products.page.lightingTypes.hmi.description}
               </p>
@@ -117,7 +126,9 @@ export default function ProductsContent() {
               className="rounded-lg border border-gray-800 bg-[#050505] p-8"
             >
               <div className="mb-4 text-4xl">🔆</div>
-              <h3 className="mb-3 text-2xl font-bold">{t.products.page.lightingTypes.combined.title}</h3>
+              <h3 className="mb-3 text-2xl font-bold uppercase" style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 700 }}>
+                {t.products.page.lightingTypes.combined.title}
+              </h3>
               <p className="mb-4 text-gray-400">
                 {t.products.page.lightingTypes.combined.description}
               </p>

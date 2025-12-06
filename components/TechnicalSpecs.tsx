@@ -101,7 +101,7 @@ export default function TechnicalSpecs() {
           className="mb-16 text-center"
         >
           <h2
-            className="mb-4 text-5xl font-bold tracking-tight md:text-6xl"
+            className="mb-4 text-5xl font-bold uppercase tracking-tight md:text-6xl"
             style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 800 }}
           >
             {t.specs.title}

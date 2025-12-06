@@ -13,11 +13,14 @@ A cinematic, high-end website for professional film lighting equipment, designed
 
 ## Features
 
+- **Multilingual Support** - Czech (base), English, Hungarian, Spanish, Italian
+- **Language Switcher** - Easy language switching in header
 - **Dark Cinematic Theme** - Precise, technical aesthetic with #050505 background
 - **Hero Section** - Full viewport height with dramatic background image and overlay
-- **Gear Showcase** - Technical schematic-style cards displaying lighting equipment
+- **Product Showcase** - Technical schematic-style cards displaying lighting equipment
 - **Technical Specs Table** - Clean, monospace-styled data table with equipment specifications
 - **Masonry Gallery** - Responsive image gallery showcasing featured productions
+- **Responsive Design** - Mobile-first approach with adaptive layouts
 
 ## Getting Started
 
@@ -46,17 +49,37 @@ node scrape-images-puppeteer.js
 
 ```
 ├── app/
-│   ├── layout.tsx          # Root layout
-│   ├── page.tsx            # Home page
-│   └── globals.css         # Global styles
+│   ├── layout.tsx              # Root layout
+│   ├── [locale]/                # Locale-based routing
+│   │   ├── layout.tsx           # Locale layout
+│   │   ├── page.tsx             # Home page
+│   │   ├── o-nas/               # About page
+│   │   ├── produkty/            # Products page
+│   │   ├── reference/            # References page
+│   │   └── kontakt/             # Contact page
+│   └── globals.css              # Global styles
 ├── components/
-│   ├── Hero.tsx            # Hero section component
-│   ├── GearShowcase.tsx    # Equipment showcase component
-│   ├── TechnicalSpecs.tsx  # Technical specifications table
-│   └── Gallery.tsx         # Image gallery component
-├── public/
-│   └── images/             # Scraped image assets
-└── package.json
+│   ├── Header.tsx               # Navigation header with language switcher
+│   ├── Footer.tsx               # Footer component
+│   ├── HeroNew.tsx              # Hero section
+│   ├── ProductShowcase.tsx      # Product showcase
+│   ├── TechnicalSpecs.tsx       # Technical specifications
+│   ├── Gallery.tsx              # Image gallery
+│   └── LanguageSwitcher.tsx    # Language selection dropdown
+├── messages/                    # Translation files
+│   ├── cs.json                  # Czech translations
+│   ├── en.json                  # English translations
+│   ├── hu.json                  # Hungarian translations
+│   ├── es.json                  # Spanish translations
+│   └── it.json                  # Italian translations
+├── hooks/
+│   └── useTranslations.ts       # Translation hook
+├── lib/
+│   └── translations.ts          # Translation utilities
+├── middleware.ts                # Locale detection and routing
+├── i18n-config.ts               # i18n configuration
+└── public/
+    └── images/                  # Image assets
 ```
 
 ## Design Philosophy
@@ -77,5 +100,13 @@ npm start
 ## Deployment
 
 The site is ready to be deployed on Vercel, Netlify, or any platform that supports Next.js.
+
+**Quick Deploy to Vercel:**
+1. Go to [vercel.com](https://vercel.com) and sign in with GitHub
+2. Click "Add New Project" and select this repository
+3. Vercel will automatically detect Next.js and deploy
+4. Your site will be live at `https://your-project.vercel.app`
+
+For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md)
 
 

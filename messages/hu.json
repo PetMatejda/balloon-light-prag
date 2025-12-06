@@ -2,18 +2,18 @@
   "nav": {
     "home": "Kezdőlap",
     "about": "Rólunk",
-    "products": "Termékek",
-    "references": "Referenciák",
+    "products": "Technika",
+    "references": "Galéria",
     "contact": "Kapcsolat"
   },
   "hero": {
     "badge": "Professzionális filmvilágítás",
     "title": "BALLOON",
-    "subtitle": "LIGHT PRAHA",
-    "description": "Hélium ballonok belső és külső terek megvilágításához a filmiparban.",
-    "description2": "Sárga (tungsten), fehér (HMI) és kombinált világítás.",
-    "productsButton": "Termékeink",
-    "referencesButton": "Referenciák"
+    "subtitle": "LIGHT PRAG",
+    "description": "BALLOON LIGHT PRAG: Specializált világítási technika filmhez és reklámhoz.",
+    "description2": "Shadowless 360° light. Flicker-free. HMI & Tungsten.",
+    "productsButton": "Technika",
+    "referencesButton": "Galéria"
   },
   "features": {
     "title": "Miért válassza a Balloon Light Praha-t?",
@@ -36,24 +36,52 @@
     }
   },
   "products": {
-    "title": "Termékeink",
-    "subtitle": "Széles választék professzionális világítás a filmiparban",
-    "moreInfo": "További információ",
+    "title": "Technika",
+    "subtitle": "Specializált világítási technika filmhez és reklámhoz",
+    "moreInfo": "Specifikációk",
+    "inquire": "Ajánlatkérés",
     "viewAll": "Összes termék megtekintése",
+    "specs": {
+      "power": "Teljesítmény",
+      "sourceType": "Forrás típusa",
+      "colorTemp": "Színhőmérséklet",
+      "dimensions": "Méretek"
+    },
     "balloons": {
-      "name": "Hélium ballonok",
-      "description": "Professzionális hélium ballonok belső és külső terek megvilágításához a filmiparban. Sárga (tungsten), fehér (HMI) és kombinált világítási változatokat kínálunk 1KW, 2KW, 3KW és 5KW teljesítményben.",
-      "type": "Tungsten / HMI / Kombinált"
+      "name": "Sirocco / Airstar (Gömb alakú)",
+      "description": "Professzionális hélium ballonok belső és külső terek megvilágításához a filmiparban. Shadowless 360° flicker-mentes világítás.",
+      "type": "HMI / Tungsten",
+      "power": "1200W / 2500W / 4000W",
+      "sourceType": "HMI / Tungsten (Halogén)",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Átmérő: 200-300 cm"
     },
     "ledCube": {
       "name": "LED Cube",
       "description": "Moduláris LED kocka magas 4.8 KW teljesítménnyel és teljesen állítható fényszínnel (2700K-6500K)",
-      "type": "LED"
+      "type": "LED",
+      "power": "4800W",
+      "sourceType": "LED",
+      "colorTemp": "2700K-6500K",
+      "dimensions": "64x64x64 cm"
+    },
+    "tube": {
+      "name": "Sirocco Tube / Airstar Tube",
+      "description": "Hengeres ballonok alacsonyabb mennyezeti magasságok és alagutak megvilágításához. Shadowless 360° világítás.",
+      "type": "HMI / Tungsten",
+      "power": "1200W / 2500W / 4000W",
+      "sourceType": "HMI / Tungsten (Halogén)",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Átmérő: 150-200 cm, Hossz: 300-500 cm"
     },
     "cloud": {
-      "name": "Cloud Light",
-      "description": "Lágy diffúz világítás 2.5 KW teljesítménnyel finom fényhatásokhoz és légköri jelenetekhez",
-      "type": "HMI"
+      "name": "Cloud / Pad Light",
+      "description": "Lapos diffúz világítás 2.5 KW teljesítménnyel finom fényhatásokhoz és légköri jelenetekhez",
+      "type": "HMI",
+      "power": "2500W",
+      "sourceType": "HMI",
+      "colorTemp": "5600K",
+      "dimensions": "Átmérő: 250-300 cm"
     },
     "flatLight": {
       "name": "Flat Light",
@@ -71,8 +99,8 @@
       "type": "LED / HMI"
     },
     "page": {
-      "title": "Termékek",
-      "subtitle": "Termékeink",
+      "title": "Technika",
+      "subtitle": "Specializált világítási technika",
       "description": "Professzionális hélium ballonokra specializálódunk filmvilágításhoz. Széles választékot kínálunk teljesítményekben és világítási típusokban minden produkcióhoz.",
       "lightingTypes": {
         "title": "Világítási típusok",
@@ -117,9 +145,9 @@
   },
   "about": {
     "title": "Rólunk",
-    "company": "BALLOON - light - PRAHA",
-    "description1": "Olyan szakosodott vállalat vagyunk, amely professzionális hélium ballonokat biztosít belső és külső terek megvilágításához, különösen a filmiparban. Szolgáltatásaink film- és televíziós produkciókhoz, reklámokhoz, dokumentumfilmekhez és egyéb audiovizuális projektekhez készültek.",
-    "description2": "Széles választékot kínálunk világítási technikákból, beleértve a sárga (tungsten), fehér (HMI) és kombinált világítást. Felszerelésünk igényes professzionális projektekhez készült, és megfelel a legmagasabb minőségi szabványoknak.",
+    "company": "BALLOON LIGHT PRAG",
+    "description1": "Partner vagyunk operatőrök és gafferek számára. Glare-mentes világítást kínálunk éjszakai külső terekhez, belső terekhez és eseményekhez. Több mint 15 év tapasztalat a helyszínen.",
+    "description2": "Shadowless 360° flicker-mentes világításra specializálódunk. Felszerelésünk igényes professzionális projektekhez készült, és megfelel a legmagasabb minőségi szabványoknak a high-end cinema produkciókhoz.",
     "services": {
       "title": "Szolgáltatásaink",
       "rental": "Hélium ballonok bérlése filmvilágításhoz",
@@ -157,8 +185,9 @@
     }
   },
   "contact": {
-    "title": "Kapcsolat",
-    "subtitle": "Lépjen velünk kapcsolatba professzionális világítás bérléséhez vagy további információkért szolgáltatásainkról",
+    "title": "Booking & Rental",
+    "subtitle": "Hívjon minket közvetlenül a helyszínen",
+    "bookingTitle": "Booking & Rental",
     "info": {
       "title": "Kapcsolati információk",
       "phone": "Telefon",
@@ -190,8 +219,8 @@
     "copyright": "Minden jog fenntartva."
   },
   "meta": {
-    "title": "Balloon Light Praha - Professzionális hélium ballonok filmvilágításhoz",
-    "description": "BALLOON - light - PRAHA - Professzionális hélium ballonok belső és külső terek megvilágításához a filmiparban. Sárga (tungsten), fehér (HMI) és kombinált világítás."
+    "title": "Balloon Light Prag - Specializált világítási technika filmhez és reklámhoz",
+    "description": "BALLOON LIGHT PRAG - Specializált világítási technika filmhez és reklámhoz. Shadowless 360° light. Flicker-free. HMI & Tungsten."
   }
 }
 

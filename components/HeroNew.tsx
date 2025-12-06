@@ -42,11 +42,11 @@ export default function HeroNew() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
-          className="mb-6 text-5xl font-bold tracking-tight md:text-7xl lg:text-8xl"
+          className="mb-6 text-5xl font-bold uppercase tracking-tight md:text-7xl lg:text-8xl"
           style={{
             fontFamily: 'system-ui, -apple-system, sans-serif',
             fontWeight: 800,
-            letterSpacing: '-0.02em',
+            letterSpacing: '0.02em',
           }}
         >
           {t.hero.title}
@@ -76,14 +76,15 @@ export default function HeroNew() {
         >
           <Link
             href={`/${currentLocale}/produkty`}
-            className="group relative overflow-hidden rounded-lg bg-white px-8 py-4 text-base font-semibold text-[#050505] transition-all hover:scale-105 hover:shadow-lg hover:shadow-white/20"
+            className="group relative overflow-hidden rounded-lg px-8 py-4 text-base font-semibold text-[#050505] transition-all hover:scale-105 hover:shadow-lg"
+            style={{ backgroundColor: '#FFC58F' }}
           >
             <span className="relative z-10">{t.hero.productsButton}</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-white opacity-0 transition-opacity group-hover:opacity-100" />
           </Link>
           <Link
             href={`/${currentLocale}/reference`}
-            className="group flex items-center gap-2 rounded-lg border-2 border-white/30 bg-white/10 px-8 py-4 text-base font-semibold text-white backdrop-blur-sm transition-all hover:border-white/50 hover:bg-white/20"
+            className="group flex items-center gap-2 rounded-lg border-2 border-white/30 bg-white/10 px-8 py-4 text-base font-semibold text-white backdrop-blur-sm transition-all hover:border-white/50 hover:bg-white/20 uppercase"
+            style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 700 }}
           >
             <Play size={20} />
             <span>{t.hero.referencesButton}</span>

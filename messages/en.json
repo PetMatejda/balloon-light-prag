@@ -2,18 +2,18 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "products": "Products",
-    "references": "References",
+    "products": "Gear",
+    "references": "Gallery",
     "contact": "Contact"
   },
   "hero": {
     "badge": "Professional film lighting",
     "title": "BALLOON",
-    "subtitle": "LIGHT PRAHA",
-    "description": "Helium balloons for lighting interiors and exteriors in the film industry.",
-    "description2": "Yellow (tungsten), white (HMI) and combined lighting.",
-    "productsButton": "Our products",
-    "referencesButton": "References"
+    "subtitle": "LIGHT PRAG",
+    "description": "BALLOON LIGHT PRAG: Specialized lighting equipment for film and advertising.",
+    "description2": "Shadowless 360° light. Flicker-free. HMI & Tungsten.",
+    "productsButton": "Gear",
+    "referencesButton": "Gallery"
   },
   "features": {
     "title": "Why choose Balloon Light Praha?",
@@ -36,43 +36,83 @@
     }
   },
   "products": {
-    "title": "Our products",
-    "subtitle": "Wide range of professional lighting for the film industry",
-    "moreInfo": "More information",
+    "title": "Gear",
+    "subtitle": "Specialized lighting equipment for film and advertising",
+    "moreInfo": "Specifications",
+    "inquire": "Inquire",
     "viewAll": "View all products",
+    "specs": {
+      "power": "Power",
+      "sourceType": "Source Type",
+      "colorTemp": "Color Temp",
+      "dimensions": "Dimensions"
+    },
     "balloons": {
-      "name": "Helium balloons",
-      "description": "Professional helium balloons for lighting interiors and exteriors in the film industry. We offer variants with yellow (tungsten), white (HMI) and combined lighting in powers of 1KW, 2KW, 3KW and 5KW.",
-      "type": "Tungsten / HMI / Combined"
+      "name": "Sirocco / Airstar (Spherical)",
+      "description": "Professional helium balloons for lighting interiors and exteriors in the film industry. Shadowless 360° flicker-free lighting.",
+      "type": "HMI / Tungsten",
+      "power": "1200W / 2500W / 4000W",
+      "sourceType": "HMI / Tungsten (Halogen)",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Diameter: 200-300 cm"
     },
     "ledCube": {
       "name": "LED Cube",
       "description": "Modular LED cube with high power 4.8 KW and fully adjustable light color (2700K-6500K)",
-      "type": "LED"
+      "type": "LED",
+      "power": "4800W",
+      "sourceType": "LED",
+      "colorTemp": "2700K-6500K",
+      "dimensions": "64x64x64 cm"
+    },
+    "tube": {
+      "name": "Sirocco Tube / Airstar Tube",
+      "description": "Cylindrical balloons for lighting in lower ceiling heights and tunnels. Shadowless 360° lighting.",
+      "type": "HMI / Tungsten",
+      "power": "1200W / 2500W / 4000W",
+      "sourceType": "HMI / Tungsten (Halogen)",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Diameter: 150-200 cm, Length: 300-500 cm"
     },
     "cloud": {
-      "name": "Cloud Light",
-      "description": "Soft diffused lighting with 2.5 KW power for subtle light effects and atmospheric scenes",
-      "type": "HMI"
+      "name": "Cloud / Pad Light",
+      "description": "Flat diffused lighting with 2.5 KW power for subtle light effects and atmospheric scenes",
+      "type": "HMI",
+      "power": "2500W",
+      "sourceType": "HMI",
+      "colorTemp": "5600K",
+      "dimensions": "Diameter: 250-300 cm"
     },
     "flatLight": {
       "name": "Flat Light",
       "description": "Flat lighting for even light distribution on set, ideal for shadow elimination",
-      "type": "HMI / Tungsten"
+      "type": "HMI / Tungsten",
+      "power": "Variable",
+      "sourceType": "HMI / Tungsten",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "On request"
     },
     "sunCut": {
       "name": "Sun Cut",
       "description": "Special lighting for simulating sunlight and creating natural shadows",
-      "type": "HMI"
+      "type": "HMI",
+      "power": "Variable",
+      "sourceType": "HMI",
+      "colorTemp": "5600K",
+      "dimensions": "On request"
     },
     "underwater": {
       "name": "Underwater lights",
       "description": "Waterproof lighting for underwater filming and humid environments",
-      "type": "LED / HMI"
+      "type": "LED / HMI",
+      "power": "Variable",
+      "sourceType": "LED / HMI",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "On request"
     },
     "page": {
-      "title": "Products",
-      "subtitle": "Our products",
+      "title": "Gear",
+      "subtitle": "Specialized lighting equipment",
       "description": "We specialize in professional helium balloons for film lighting. We offer a wide range of powers and lighting types for every production.",
       "lightingTypes": {
         "title": "Lighting types",
@@ -117,9 +157,9 @@
   },
   "about": {
     "title": "About us",
-    "company": "BALLOON - light - PRAHA",
-    "description1": "We are a specialized company providing professional helium balloons for lighting interiors and exteriors, especially in the film industry. Our services are intended for film and television productions, commercials, documentaries and other audiovisual projects.",
-    "description2": "We offer a wide range of lighting techniques including yellow (tungsten), white (HMI) and combined lighting. Our equipment is designed for demanding professional projects and meets the highest quality standards.",
+    "company": "BALLOON LIGHT PRAG",
+    "description1": "We are partners for cinematographers and gaffers. We offer glare-free lighting for night exteriors, interiors and events. More than 15 years of experience on set.",
+    "description2": "We specialize in shadowless 360° flicker-free lighting. Our equipment is designed for demanding professional projects and meets the highest quality standards for high-end cinema productions.",
     "services": {
       "title": "Our services",
       "rental": "Rental of helium balloons for film lighting",
@@ -157,8 +197,9 @@
     }
   },
   "contact": {
-    "title": "Contact",
-    "subtitle": "Contact us for rental of professional lighting or for more information about our services",
+    "title": "Booking & Rental",
+    "subtitle": "Call us directly on set",
+    "bookingTitle": "Booking & Rental",
     "info": {
       "title": "Contact information",
       "phone": "Phone",
@@ -190,8 +231,8 @@
     "copyright": "All rights reserved."
   },
   "meta": {
-    "title": "Balloon Light Praha - Professional helium balloons for film lighting",
-    "description": "BALLOON - light - PRAHA - Professional helium balloons for lighting interiors and exteriors in the film industry. Yellow (tungsten), white (HMI) and combined lighting."
+    "title": "Balloon Light Prag - Specialized lighting equipment for film and advertising",
+    "description": "BALLOON LIGHT PRAG - Specialized lighting equipment for film and advertising. Shadowless 360° light. Flicker-free. HMI & Tungsten."
   }
 }
 
