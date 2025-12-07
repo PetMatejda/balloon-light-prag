@@ -15,7 +15,7 @@ export default function ProductsContent() {
       <section className="relative h-[50vh] w-full overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/balloon.72b8c68083eb4d2c6ad5.webp"
+            src="/images/products/product_balloon.72b8c68083eb4d2c6ad5.webp"
             alt={t.products.page.title}
             fill
             className="object-cover"

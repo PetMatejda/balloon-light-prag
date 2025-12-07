@@ -23,7 +23,7 @@ export default function ProductShowcase() {
     {
       id: 1,
       name: t.products.balloons.name,
-      image: '/images/balloon.72b8c68083eb4d2c6ad5.webp',
+      image: '/images/products/product_balloon.72b8c68083eb4d2c6ad5.webp',
       description: t.products.balloons.description,
       type: t.products.balloons.type,
       power: t.products.balloons.power,
@@ -31,12 +31,12 @@ export default function ProductShowcase() {
       colorTemp: t.products.balloons.colorTemp,
       dimensions: t.products.balloons.dimensions,
       usageImages: [
-        '/images/balloon.72b8c68083eb4d2c6ad5.webp',
+        '/images/products/product_balloon.72b8c68083eb4d2c6ad5.webp',
         '/images/film1.218a1d0efcf08e6b437b.webp',
         '/images/civilwar.adc19be35ec1c30fab33.webp',
       ],
       technicalDetails: {
-        wattage: '1200W / 2500W / 4000W',
+        wattage: t.products.balloons.power,
         dimming: '0-100%',
         cri: '95+',
         weight: 'Variabilní dle velikosti',
@@ -46,7 +46,7 @@ export default function ProductShowcase() {
     {
       id: 2,
       name: t.products.ledCube.name,
-      image: '/images/led-cube.c743afcbbb2f141d921d.webp',
+      image: '/images/products/product_led-cube.c743afcbbb2f141d921d.webp',
       description: t.products.ledCube.description,
       type: t.products.ledCube.type,
       power: t.products.ledCube.power,
@@ -54,11 +54,11 @@ export default function ProductShowcase() {
       colorTemp: t.products.ledCube.colorTemp,
       dimensions: t.products.ledCube.dimensions,
       usageImages: [
-        '/images/led-cube.c743afcbbb2f141d921d.webp',
+        '/images/products/product_led-cube.c743afcbbb2f141d921d.webp',
         '/images/spectre.ee4cc6aa172104cef7c1.webp',
       ],
       technicalDetails: {
-        wattage: '4800W',
+        wattage: t.products.ledCube.power,
         dimming: '0-100%',
         cri: '95+',
         weight: '~50 kg',
@@ -68,7 +68,7 @@ export default function ProductShowcase() {
     {
       id: 3,
       name: t.products.cloud.name,
-      image: '/images/cloud.b20bf445c1377f77ce34.webp',
+      image: '/images/products/product_cloud.b20bf445c1377f77ce34.webp',
       description: t.products.cloud.description,
       type: t.products.cloud.type,
       power: t.products.cloud.power,
@@ -76,11 +76,11 @@ export default function ProductShowcase() {
       colorTemp: t.products.cloud.colorTemp,
       dimensions: t.products.cloud.dimensions,
       usageImages: [
-        '/images/cloud.b20bf445c1377f77ce34.webp',
+        '/images/products/product_cloud.b20bf445c1377f77ce34.webp',
         '/images/terminator.87fd768205dd99bdd550.webp',
       ],
       technicalDetails: {
-        wattage: '2500W',
+        wattage: t.products.cloud.power,
         dimming: '0-100%',
         cri: '95+',
         weight: 'Variabilní',
@@ -90,7 +90,7 @@ export default function ProductShowcase() {
     {
       id: 4,
       name: t.products.flatLight.name,
-      image: '/images/IMG_20200930_102505.9846e956999d102bd3eb.webp',
+      image: '/images/products/product_IMG_20200930_102505.9846e956999d102bd3eb.webp',
       description: t.products.flatLight.description,
       type: t.products.flatLight.type,
       power: t.products.flatLight.power,
@@ -98,7 +98,7 @@ export default function ProductShowcase() {
       colorTemp: t.products.flatLight.colorTemp,
       dimensions: t.products.flatLight.dimensions,
       usageImages: [
-        '/images/IMG_20200930_102505.9846e956999d102bd3eb.webp',
+        '/images/products/product_IMG_20200930_102505.9846e956999d102bd3eb.webp',
         '/images/inglorious.80f3d76ebc0566b8c159.webp',
       ],
       technicalDetails: {
@@ -112,7 +112,7 @@ export default function ProductShowcase() {
     {
       id: 5,
       name: t.products.sunCut.name,
-      image: '/images/suncut.925bf50780c4b9762413.webp',
+      image: '/images/products/product_suncut.925bf50780c4b9762413.webp',
       description: t.products.sunCut.description,
       type: t.products.sunCut.type,
       power: t.products.sunCut.power,
@@ -120,7 +120,7 @@ export default function ProductShowcase() {
       colorTemp: t.products.sunCut.colorTemp,
       dimensions: t.products.sunCut.dimensions,
       usageImages: [
-        '/images/suncut.925bf50780c4b9762413.webp',
+        '/images/products/product_suncut.925bf50780c4b9762413.webp',
         '/images/volavka.4856b58e51515d8d6bd0.webp',
       ],
       technicalDetails: {
@@ -134,7 +134,7 @@ export default function ProductShowcase() {
     {
       id: 6,
       name: t.products.underwater.name,
-      image: '/images/podvodni.a0455413779cdf5ffadc.webp',
+      image: '/images/products/product_podvodni.a0455413779cdf5ffadc.webp',
       description: t.products.underwater.description,
       type: t.products.underwater.type,
       power: t.products.underwater.power,
@@ -142,7 +142,7 @@ export default function ProductShowcase() {
       colorTemp: t.products.underwater.colorTemp,
       dimensions: t.products.underwater.dimensions,
       usageImages: [
-        '/images/podvodni.a0455413779cdf5ffadc.webp',
+        '/images/products/product_podvodni.a0455413779cdf5ffadc.webp',
         '/images/crowSecond.9b62e1cfd595623529b3.jpg',
       ],
       technicalDetails: {

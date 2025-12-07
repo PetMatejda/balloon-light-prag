@@ -52,67 +52,85 @@
       "dimensions": "Rozměry"
     },
     "balloons": {
-      "name": "Sférické balóny / Koule",
-      "description": "Profesionální heliové balóny pro osvětlení interiérů a exteriérů ve filmovém průmyslu. Shadowless 360° osvětlení bez flickeru.",
-      "type": "HMI / Tungsten",
-      "power": "1200W / 2500W / 4000W",
-      "sourceType": "HMI / Tungsten (Halogen)",
+      "name": "KOULE",
+      "description": "Koule je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné jej zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.",
+      "type": "LED RGBWW / Tungsten / HMI / Mix",
+      "power": "1400 W each color / 2800 W each color",
+      "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
       "colorTemp": "3200K / 5600K",
-      "dimensions": "Průměr: 200-300 cm"
+      "dimensions": "Diameter 3.7m / 4.3m x 3.7m / Diameter 5m"
     },
     "ledCube": {
-      "name": "LED Cube",
-      "description": "Modulární LED kostka s vysokým výkonem 4.8 KW a plně nastavitelnou barvou světla (2700K-6500K)",
-      "type": "LED",
-      "power": "4800W",
-      "sourceType": "LED",
+      "name": "KOSTKY",
+      "description": "Kostka je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné jej zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.",
+      "type": "LED RGBWW / Tungsten / HMI / Mix",
+      "power": "2 800 W each color / 1 400 W each color",
+      "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
       "colorTemp": "2700K-6500K",
-      "dimensions": "64x64x64 cm"
+      "dimensions": "3.5x3.5x3.5m / 2.5x2.5x2.5m"
     },
     "tube": {
-      "name": "Sirocco Tube / Airstar Tube",
-      "description": "Válecové balóny pro osvětlení v nižších stropních výškách a tunelech. Shadowless 360° osvětlení.",
-      "type": "HMI / Tungsten",
-      "power": "1200W / 2500W / 4000W",
-      "sourceType": "HMI / Tungsten (Halogen)",
+      "name": "TUBY",
+      "description": "Tuba je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné jej zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.",
+      "type": "LED RGBWW / Tungsten / HMI / Mix",
+      "power": "1000 W each color / 3x300 W each color / 2000 W each color / 4000 W each color",
+      "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
       "colorTemp": "3200K / 5600K",
-      "dimensions": "Průměr: 150-200 cm, Délka: 300-500 cm"
+      "dimensions": "500cm x 250cm / 700cm x 200cm / 800cm x 250cm / 970cm x 370cm"
     },
     "cloud": {
-      "name": "Cloud / Pad Light",
-      "description": "Ploché difúzní osvětlení s výkonem 2.5 KW pro jemné světelné efekty a atmosférické scény",
-      "type": "HMI",
-      "power": "2500W",
-      "sourceType": "HMI",
-      "colorTemp": "5600K",
-      "dimensions": "Průměr: 250-300 cm"
+      "name": "MATRACE",
+      "description": "Matrace je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné jej zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.",
+      "type": "LED RGBWW / Tungsten / HMI / Mix",
+      "power": "1400 W-2800 W each color / 4x300 W each color / 4700 W each color",
+      "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "4.5x4.5x1 / 8x6x1"
     },
     "flatLight": {
-      "name": "Flat Light",
-      "description": "Ploché osvětlení pro rovnoměrné rozložení světla na scéně, ideální pro eliminaci stínů",
-      "type": "HMI / Tungsten",
-      "power": "Variabilní",
-      "sourceType": "HMI / Tungsten",
-      "colorTemp": "3200K / 5600K",
-      "dimensions": "Na dotaz"
+      "name": "FLAT LIGHT (Stativové)",
+      "description": "Naše Flat Light jsou lehká a úzká, díky unikátní skládací konstrukci nenáročná pro přepravu. Lze je umístit na stativ, případně zavěsit na lanech. Jsou oblíbená pro svou snadnou manipulaci i ovládání.",
+      "type": "LED RGBWW",
+      "power": "300 - 500 W each color / 600 - 1000 W each color / 1200 - 2000 W each color",
+      "sourceType": "LED RGBWW",
+      "colorTemp": "2700K-6500K",
+      "dimensions": "4x4 Feet / 4x8 Feet / 8x8 Feet"
     },
     "sunCut": {
-      "name": "Sun Cut",
-      "description": "Speciální osvětlení pro simulaci slunečního světla a vytváření přirozených stínů",
-      "type": "HMI",
-      "power": "Variabilní",
-      "sourceType": "HMI",
-      "colorTemp": "5600K",
-      "dimensions": "Na dotaz"
+      "name": "SUNCUT balóny",
+      "description": "Naše stínící balony efektivně blokují přímé sluneční paprsky a umožňují precizní kontrolu světla",
+      "type": "Stínění",
+      "power": "--",
+      "sourceType": "Stínění",
+      "colorTemp": "--",
+      "dimensions": "2,5m x 2,5m / 3m x 3m / 4,5m x 4,5m / 6m x 6m / 8m x 6m"
     },
     "underwater": {
-      "name": "Podvodní světla",
-      "description": "Vodotěsná osvětlení pro natáčení pod vodou a ve vlhkém prostředí",
-      "type": "LED / HMI",
-      "power": "Variabilní",
-      "sourceType": "LED / HMI",
+      "name": "PODVODNÍ SVĚTLA",
+      "description": "Naše podvodní světla jsou využívaná především ve filmovém a TV průmyslu: Blade Runner 2049 / Mission: Impossible 6 / Submergence / Kingsman: The golden circle",
+      "type": "LED RGBWW",
+      "power": "140W+",
+      "sourceType": "LED RGBWW",
+      "colorTemp": "2700K-6500K",
+      "dimensions": "1246mm x 56mm"
+    },
+    "noGravity": {
+      "name": "NO GRAVITY LIGHT",
+      "description": "Naše No Gravity světla jsou využívaná především ve filmovém a TV průmyslu. Jejich výhodou jsou nízká výška, nízký objem helia, snadná manipulace i ovládání. Lze plnit i vzduchem.",
+      "type": "LED RGBWW",
+      "power": "300 W each color",
+      "sourceType": "LED RGBWW",
+      "colorTemp": "2700K-6500K",
+      "dimensions": "3x3x1m / 2.8x2.8x0.8m"
+    },
+    "stative": {
+      "name": "STATIVOVÉ BALÓNY",
+      "description": "Naše stativové balóny se plní vzduchem, a jsou proto velmi lehké. Lze je snadno zavěsit bez složitých riggingových systémů jako u běžných světel či panelů. Jsou oblíbené pro nízkou výšku, snadnou manipulaci a jednoduché ovládání.",
+      "type": "LED RGBWW / Tungsten / HMI / Mix",
+      "power": "300 W each color",
+      "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
       "colorTemp": "3200K / 5600K",
-      "dimensions": "Na dotaz"
+      "dimensions": "120cm x 120cm x 30cm"
     },
     "page": {
       "title": "Produkty",

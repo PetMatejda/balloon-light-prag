@@ -43,7 +43,7 @@ export default function GearShowcase() {
     {
       id: 1,
       name: t.products.balloons.name,
-      image: '/images/balloon.72b8c68083eb4d2c6ad5.webp',
+      image: '/images/products/product_balloon.72b8c68083eb4d2c6ad5.webp',
       description: t.products.balloons.description,
       output: '1-5 KW',
       kelvin: '3200K / 5600K',
@@ -51,7 +51,7 @@ export default function GearShowcase() {
     {
       id: 2,
       name: t.products.ledCube.name,
-      image: '/images/led-cube.c743afcbbb2f141d921d.webp',
+      image: '/images/products/product_led-cube.c743afcbbb2f141d921d.webp',
       description: t.products.ledCube.description,
       output: '4.8 KW',
       kelvin: '2700K-6500K',
@@ -59,7 +59,7 @@ export default function GearShowcase() {
     {
       id: 3,
       name: 'LED Tubs',
-      image: '/images/LED-tubs.e986582eee4743c15232.webp',
+      image: '/images/products/product_LED-tubs.e986582eee4743c15232.webp',
       description: 'Profesionální LED tuby pro lineární osvětlení scén',
       output: '--',
       kelvin: '--',
@@ -67,7 +67,7 @@ export default function GearShowcase() {
     {
       id: 4,
       name: t.products.cloud.name,
-      image: '/images/cloud.b20bf445c1377f77ce34.webp',
+      image: '/images/products/product_cloud.b20bf445c1377f77ce34.webp',
       description: t.products.cloud.description,
       output: '2.5 KW',
       kelvin: '5600K',
@@ -75,7 +75,7 @@ export default function GearShowcase() {
     {
       id: 5,
       name: 'Elipsy a stativy',
-      image: '/images/elipsy_stative.1c10979080babe4cbe00.webp',
+      image: '/images/products/product_elipsy_stative.1c10979080babe4cbe00.webp',
       description: 'Profesionální stativy a elipsy pro montáž osvětlovací techniky',
       output: '--',
       kelvin: '--',
@@ -83,7 +83,7 @@ export default function GearShowcase() {
     {
       id: 6,
       name: 'No Gravity',
-      image: '/images/no-gravity.ef3c44f8b36fea3e5d8a.webp',
+      image: '/images/products/product_no-gravity.ef3c44f8b36fea3e5d8a.webp',
       description: 'Speciální osvětlovací řešení pro unikátní světelné efekty',
       output: '--',
       kelvin: '--',
@@ -91,7 +91,7 @@ export default function GearShowcase() {
     {
       id: 7,
       name: t.products.flatLight.name,
-      image: '/images/IMG_20200930_102505.9846e956999d102bd3eb.webp',
+      image: '/images/products/product_IMG_20200930_102505.9846e956999d102bd3eb.webp',
       description: t.products.flatLight.description,
       output: '--',
       kelvin: '--',
@@ -99,7 +99,7 @@ export default function GearShowcase() {
     {
       id: 8,
       name: t.products.sunCut.name,
-      image: '/images/suncut.925bf50780c4b9762413.webp',
+      image: '/images/products/product_suncut.925bf50780c4b9762413.webp',
       description: t.products.sunCut.description,
       output: '--',
       kelvin: '5600K',
@@ -107,7 +107,7 @@ export default function GearShowcase() {
     {
       id: 9,
       name: t.products.underwater.name,
-      image: '/images/podvodni.a0455413779cdf5ffadc.webp',
+      image: '/images/products/product_podvodni.a0455413779cdf5ffadc.webp',
       description: t.products.underwater.description,
       output: '--',
       kelvin: '--',

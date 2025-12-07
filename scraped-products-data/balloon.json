@@ -1,0 +1,121 @@
+{
+  "url": "https://www.balloonlightprag.cz/product/balloon",
+  "textContent": "cs\nKOULE\nKoule je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné jej zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.\nLED_RGBWW\nTungsten\nHMI\nMix\nModel\tSize\tPower\nBalloon 370\tDiameter 3.7m\t1400 W each color\nBalloon Ellipse 370\t4.3m x 3.7m\t1400 W each color\nBalloon 500\tDiameter 5m\t2800 W each color\nNaše produkty\nDalší produkty\nPODVODNÍ SVĚTLA\n\nUnderwater - LED RGBWW - Light\n\nDetailní popis\nNO GRAVITY LIGHT\n\nMožnosti: LED RGBWW\n\nDetailní popis\nSUNCUT balóny\n\nMožnosti: Stínění\n\nDetailní popis\nFLAT LIGHT (Stativové)\n\nMožnosti: LED RGBWW\n\nDetailní popis\nSTATIVOVÉ BALÓNY\n\nMožnosti: LED RGBWW - Tungsten - HMI - Mix light\n\nDetailní popis\nTUBY\n\nMožnosti: LED RGBWW - Tungsten - HMI - Mix\n\nDetailní popis\nKOSTKY\n\nMožnosti: LED RGBWW - Tungsten - HMI - Mix\n\nDetailní popis\nMATRACE\n\nMožnosti: LED RGBWW - Tungsten - HMI - Mix\n\nDetailní popis\nKOULE\n\nMožnosti: LED RGBWW - Tungsten - HMI - Mix\n\nDetailní popis\nCOPYRIGHT © 2025 BALLOON LIGHT PRAG. \nMADE BY ZEMLASOFT",
+  "tables": [
+    {
+      "index": 0,
+      "rows": [
+        [
+          "Model",
+          "Size",
+          "Power"
+        ],
+        [
+          "Balloon 370",
+          "Diameter 3.7m",
+          "1400 W each color"
+        ],
+        [
+          "Balloon Ellipse 370",
+          "4.3m x 3.7m",
+          "1400 W each color"
+        ],
+        [
+          "Balloon 500",
+          "Diameter 5m",
+          "2800 W each color"
+        ]
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "level": "h1",
+      "text": "KOULE"
+    },
+    {
+      "level": "h1",
+      "text": "Naše produkty"
+    },
+    {
+      "level": "h1",
+      "text": "PODVODNÍ SVĚTLA"
+    },
+    {
+      "level": "h1",
+      "text": "NO GRAVITY LIGHT"
+    },
+    {
+      "level": "h1",
+      "text": "SUNCUT balóny"
+    },
+    {
+      "level": "h1",
+      "text": "FLAT LIGHT (Stativové)"
+    },
+    {
+      "level": "h1",
+      "text": "STATIVOVÉ BALÓNY"
+    },
+    {
+      "level": "h1",
+      "text": "TUBY"
+    },
+    {
+      "level": "h1",
+      "text": "KOSTKY"
+    },
+    {
+      "level": "h1",
+      "text": "MATRACE"
+    },
+    {
+      "level": "h1",
+      "text": "KOULE"
+    }
+  ],
+  "paragraphs": [
+    "Underwater - LED RGBWW - Light",
+    "Možnosti: LED RGBWW",
+    "Možnosti: Stínění",
+    "Možnosti: LED RGBWW",
+    "Možnosti: LED RGBWW - Tungsten - HMI - Mix light",
+    "Možnosti: LED RGBWW - Tungsten - HMI - Mix",
+    "Možnosti: LED RGBWW - Tungsten - HMI - Mix",
+    "Možnosti: LED RGBWW - Tungsten - HMI - Mix",
+    "Možnosti: LED RGBWW - Tungsten - HMI - Mix"
+  ],
+  "imageUrls": [
+    "https://www.balloonlightprag.cz/static/media/logo.3990d4455f2ccc2f6ec7.webp",
+    "https://www.balloonlightprag.cz/static/media/1d8ca179-02b6-47d7-8b5b-10b059bd8c9b.ba303cbbd7feb30efbd2.webp",
+    "https://www.balloonlightprag.cz/static/media/magnifying-glass.d8c9027bd7c6aacac1f9534a04c610e7.svg",
+    "https://www.balloonlightprag.cz/static/media/3cdd181b-adc0-42ab-94cb-dc861cc4e350.85c93b68aa1041158f9f.webp",
+    "https://www.balloonlightprag.cz/static/media/DSC04706.68b8b73375a37319ba28.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_1836.9348faed87969f445d3a.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_20170624_223124.902fd2708bdbb26c5fd6.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_20200930_120703.3a846bda6c3959aa5f7e.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_3794.24eb84e116d84f670fba.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_3842.3b55b2daffb7a39e2bcc.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_4211.3d647e56fa2a80df0100.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_4266.77ff94ea76b1346c60d0.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_4453.f1a57f06204c200e2b49.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_4465.b73275673a37b329c61c.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_5155.72b8c68083eb4d2c6ad5.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_5165.4308953a15f70f46f68e.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_5846.cd00cc2f12a20d041c37.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_9313.f8e99ca1d3ed31e7f711.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_9747.a8288e2782462945ce06.webp",
+    "https://www.balloonlightprag.cz/static/media/obrazek13.150f435628a683261069.webp",
+    "https://www.balloonlightprag.cz/static/media/obrazek4.14718add86980897a6a2.webp",
+    "https://www.balloonlightprag.cz/static/media/podvodni.a0455413779cdf5ffadc.webp",
+    "https://www.balloonlightprag.cz/static/media/no-gravity.ef3c44f8b36fea3e5d8a.webp",
+    "https://www.balloonlightprag.cz/static/media/suncut.925bf50780c4b9762413.webp",
+    "https://www.balloonlightprag.cz/static/media/IMG_20200930_102505.9846e956999d102bd3eb.webp",
+    "https://www.balloonlightprag.cz/static/media/elipsy_stative.1c10979080babe4cbe00.webp",
+    "https://www.balloonlightprag.cz/static/media/LED-tubs.e986582eee4743c15232.webp",
+    "https://www.balloonlightprag.cz/static/media/led-cube.c743afcbbb2f141d921d.webp",
+    "https://www.balloonlightprag.cz/static/media/cloud.b20bf445c1377f77ce34.webp",
+    "https://www.balloonlightprag.cz/static/media/balloon.72b8c68083eb4d2c6ad5.webp"
+  ],
+  "error": null
+}
