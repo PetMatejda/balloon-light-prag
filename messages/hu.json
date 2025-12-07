@@ -3,7 +3,7 @@
     "home": "Kezdőlap",
     "about": "Rólunk",
     "products": "Technika",
-    "films": "Filmek",
+    "films": "Referenciák",
     "references": "Galéria",
     "contact": "Kapcsolat"
   },
@@ -11,8 +11,8 @@
     "badge": "Professzionális filmvilágítás",
     "title": "BALLOON",
     "subtitle": "LIGHT PRAG",
-    "description": "BALLOON LIGHT PRAG: Specializált világítási technika filmhez és reklámhoz.",
-    "description2": "Shadowless 360° light. Flicker-free. HMI & Tungsten.",
+    "description": "Professzionális világítási balloonok filmhez és reklámhoz. Tökéletes árnyékmentes világítás.",
+    "description2": "Árnyékmentes 360° világítás. Flicker-mentes. HMI és Tungsten.",
     "productsButton": "Technika",
     "referencesButton": "Galéria"
   },
@@ -33,14 +33,14 @@
     },
     "quality": {
       "title": "Professzionális minőség",
-      "description": "Magas minőség és megbízhatóság igényes filmprojektekhez."
+      "description": "10 éven át több mint 2 900 projektet világítottunk meg, beleértve hollywoodi kasszasikereket. Kezelünk belső tereket, külső tereket és víz alatti jeleneteket."
     }
   },
   "products": {
     "title": "Technika",
     "subtitle": "Specializált világítási technika filmhez és reklámhoz",
     "moreInfo": "Specifikációk",
-    "inquire": "Ajánlatkérés",
+    "inquire": "Árajánlat kérése",
     "viewAll": "Összes termék megtekintése",
     "detail": {
       "usageImages": "Használati képek"
@@ -182,9 +182,9 @@
     }
   },
   "films": {
-    "title": "Filmek, amelyekben részt vettünk",
-    "subtitle": "Filmprojektjeink",
-    "description": "Világításunkat számos sikeres cseh és nemzetközi filmben használták."
+    "title": "Referenciák",
+    "subtitle": "Projektjeink",
+    "description": "Világításunkat számos sikeres projektben használták - hollywoodi kasszasikerektől a helyi produkciókig."
   },
   "about": {
     "title": "Rólunk",
@@ -200,7 +200,7 @@
     },
     "experience": {
       "title": "Tapasztalat",
-      "description": "Sokéves tapasztalattal rendelkezünk a filmvilágítás terén, és vezető cseh és nemzetközi produkciókkal dolgozunk együtt. Felszerelésünket számos sikeres film- és televíziós projektben használták."
+      "description": "10 éven át több mint 2 900 projektet világítottunk meg, beleértve hollywoodi kasszasikereket, mint a Blade Runner 2049, Mission: Impossible 6 vagy a Kingsman. Vezető cseh és nemzetközi produkciókkal dolgozunk együtt, és felszerelésünket számos sikeres film- és televíziós projektben használták."
     },
     "work": {
       "title": "Munkáink"
@@ -228,9 +228,9 @@
     }
   },
   "contact": {
-    "title": "Booking & Rental",
+    "title": "Bérlés és foglalás",
     "subtitle": "Hívjon minket közvetlenül a helyszínen",
-    "bookingTitle": "Booking & Rental",
+    "bookingTitle": "Bérlés és foglalás",
     "info": {
       "title": "Kapcsolati információk",
       "phone": "Telefon",
@@ -263,7 +263,7 @@
   },
   "meta": {
     "title": "Balloon Light Prag - Specializált világítási technika filmhez és reklámhoz",
-    "description": "BALLOON LIGHT PRAG - Specializált világítási technika filmhez és reklámhoz. Shadowless 360° light. Flicker-free. HMI & Tungsten."
+    "description": "BALLOON LIGHT PRAG - Professzionális világítási balloonok filmhez és reklámhoz. Árnyékmentes 360° világítás, flicker-mentes. HMI és Tungsten világítás. 10 éven át több mint 2 900 projektet világítottunk meg."
   }
 }
 

@@ -3,7 +3,7 @@
     "home": "Startseite",
     "about": "Über uns",
     "products": "Produkte",
-    "films": "Filme",
+    "films": "Referenzen",
     "references": "Galerie",
     "contact": "Kontakt"
   },
@@ -11,8 +11,8 @@
     "badge": "Professionelle Filmbeleuchtung",
     "title": "BALLOON",
     "subtitle": "LIGHT PRAG",
-    "description": "BALLOON LIGHT PRAG: Spezialisierte Beleuchtungstechnik für Film und Werbung.",
-    "description2": "Shadowless 360° light. Flicker-free. HMI & Tungsten.",
+    "description": "Professionelle Beleuchtungsballons für Film und Werbung. Perfektes schattenloses Licht.",
+    "description2": "Schattenloses 360° Licht. Flicker-frei. HMI & Tungsten.",
     "productsButton": "Produkte",
     "referencesButton": "Galerie"
   },
@@ -33,14 +33,14 @@
     },
     "quality": {
       "title": "Professionelle Qualität",
-      "description": "Hohe Qualität und Zuverlässigkeit für anspruchsvolle Filmprojekte."
+      "description": "Über 10 Jahre haben wir mehr als 2.900 Projekte beleuchtet, darunter Hollywood-Blockbuster. Wir meistern Innenräume, Außenräume und Unterwasserszenen."
     }
   },
   "products": {
     "title": "Produkte",
     "subtitle": "Spezialisierte Beleuchtungstechnik für Film und Werbung",
     "moreInfo": "Spezifikationen",
-    "inquire": "Anfragen",
+    "inquire": "Angebot anfordern",
     "viewAll": "Alle Produkte anzeigen",
     "detail": {
       "usageImages": "Verwendungsbilder"
@@ -182,9 +182,9 @@
     }
   },
   "films": {
-    "title": "Filme, an denen wir mitgewirkt haben",
-    "subtitle": "Unsere Filmprojekte",
-    "description": "Unsere Beleuchtung wurde in einer Reihe erfolgreicher tschechischer und internationaler Filme verwendet."
+    "title": "Referenzen",
+    "subtitle": "Unsere Projekte",
+    "description": "Unsere Beleuchtung wurde in einer Reihe erfolgreicher Projekte eingesetzt - von Hollywood-Blockbustern bis hin zu lokalen Produktionen."
   },
   "about": {
     "title": "Über uns",
@@ -200,7 +200,7 @@
     },
     "experience": {
       "title": "Erfahrung",
-      "description": "Wir haben langjährige Erfahrung in der Filmbeleuchtung und arbeiten mit führenden tschechischen und internationalen Produktionen zusammen. Unsere Ausrüstung wurde in einer Reihe erfolgreicher Film- und Fernsehprojekte eingesetzt."
+      "description": "Über 10 Jahre haben wir mehr als 2.900 Projekte beleuchtet, darunter Hollywood-Blockbuster wie Blade Runner 2049, Mission: Impossible 6 oder Kingsman. Wir arbeiten mit führenden tschechischen und internationalen Produktionen zusammen und unsere Ausrüstung wurde in einer Reihe erfolgreicher Film- und Fernsehprojekte eingesetzt."
     },
     "work": {
       "title": "Unsere Arbeit"
@@ -263,7 +263,7 @@
   },
   "meta": {
     "title": "Balloon Light Prag - Spezialisierte Beleuchtungstechnik für Film und Werbung",
-    "description": "BALLOON LIGHT PRAG - Spezialisierte Beleuchtungstechnik für Film und Werbung. Shadowless 360° light. Flicker-free. HMI & Tungsten."
+    "description": "BALLOON LIGHT PRAG - Professionelle Beleuchtungsballons für Film und Werbung. Schattenloses 360° Licht, flicker-frei. HMI & Tungsten Beleuchtung. Über 10 Jahre haben wir mehr als 2.900 Projekte beleuchtet."
   }
 }
 

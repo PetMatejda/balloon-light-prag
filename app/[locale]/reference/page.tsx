@@ -12,7 +12,7 @@ export async function generateMetadata({
 
   return {
     title: `${t.references.title} - Balloon Light Praha`,
-    description: t.references.description,
+    description: "Naše osvětlení bylo použito v řadě úspěšných filmových, televizních a reklamních projektů - od hollywoodských trháků po lokální produkce. Podívejte se na naše reference.",
   }
 }
 

@@ -3,7 +3,7 @@
     "home": "Inicio",
     "about": "Sobre nosotros",
     "products": "Equipo",
-    "films": "Películas",
+    "films": "Referencias",
     "references": "Galería",
     "contact": "Contacto"
   },
@@ -11,8 +11,8 @@
     "badge": "Iluminación cinematográfica profesional",
     "title": "BALLOON",
     "subtitle": "LIGHT PRAG",
-    "description": "BALLOON LIGHT PRAG: Equipamiento de iluminación especializado para cine y publicidad.",
-    "description2": "Shadowless 360° light. Flicker-free. HMI & Tungsten.",
+    "description": "Globos de iluminación profesionales para cine y publicidad. Luz perfecta sin sombras.",
+    "description2": "Luz sin sombras 360°. Sin parpadeo. HMI y Tungsteno.",
     "productsButton": "Equipo",
     "referencesButton": "Galería"
   },
@@ -33,14 +33,14 @@
     },
     "quality": {
       "title": "Calidad profesional",
-      "description": "Alta calidad y fiabilidad para proyectos cinematográficos exigentes."
+      "description": "Durante más de 10 años hemos iluminado más de 2.900 proyectos, incluyendo éxitos de taquilla de Hollywood. Manejamos interiores, exteriores y escenas submarinas."
     }
   },
   "products": {
     "title": "Equipo",
     "subtitle": "Equipamiento de iluminación especializado para cine y publicidad",
     "moreInfo": "Especificaciones",
-    "inquire": "Consultar",
+    "inquire": "Solicitar presupuesto",
     "viewAll": "Ver todos los productos",
     "detail": {
       "usageImages": "Imágenes de uso"
@@ -182,9 +182,9 @@
     }
   },
   "films": {
-    "title": "Películas en las que contribuimos",
-    "subtitle": "Nuestros proyectos cinematográficos",
-    "description": "Nuestra iluminación se ha utilizado en una serie de películas checas e internacionales exitosas."
+    "title": "Referencias",
+    "subtitle": "Nuestros proyectos",
+    "description": "Nuestra iluminación se ha utilizado en una serie de proyectos exitosos - desde éxitos de taquilla de Hollywood hasta producciones locales."
   },
   "about": {
     "title": "Sobre nosotros",
@@ -200,7 +200,7 @@
     },
     "experience": {
       "title": "Experiencia",
-      "description": "Tenemos muchos años de experiencia en iluminación cinematográfica y trabajamos con producciones checas e internacionales líderes. Nuestro equipo se ha utilizado en una serie de proyectos cinematográficos y televisivos exitosos."
+      "description": "Durante más de 10 años hemos iluminado más de 2.900 proyectos, incluyendo éxitos de taquilla de Hollywood como Blade Runner 2049, Mission: Impossible 6 o Kingsman. Trabajamos con producciones checas e internacionales líderes y nuestro equipo se ha utilizado en una serie de proyectos cinematográficos y televisivos exitosos."
     },
     "work": {
       "title": "Nuestro trabajo"
@@ -228,9 +228,9 @@
     }
   },
   "contact": {
-    "title": "Booking & Rental",
+    "title": "Reserva y alquiler",
     "subtitle": "Llámenos directamente en el set",
-    "bookingTitle": "Booking & Rental",
+    "bookingTitle": "Reserva y alquiler",
     "info": {
       "title": "Información de contacto",
       "phone": "Teléfono",
@@ -263,7 +263,7 @@
   },
   "meta": {
     "title": "Balloon Light Prag - Equipamiento de iluminación especializado para cine y publicidad",
-    "description": "BALLOON LIGHT PRAG - Equipamiento de iluminación especializado para cine y publicidad. Shadowless 360° light. Flicker-free. HMI & Tungsten."
+    "description": "BALLOON LIGHT PRAG - Globos de iluminación profesionales para cine y publicidad. Luz sin sombras 360°, sin parpadeo. Iluminación HMI y Tungsteno. Durante más de 10 años hemos iluminado más de 2.900 proyectos."
   }
 }
 

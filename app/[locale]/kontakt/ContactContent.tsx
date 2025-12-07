@@ -77,9 +77,16 @@ export default function ContactContent() {
                   </div>
                   <div>
                     <h3 className="mb-1 text-lg font-semibold">{t.contact.info.address}</h3>
-                    <p className="text-gray-400">Za Zástávkou 377/3</p>
-                    <p className="text-gray-400">109 00 Praha-Dolní Měcholupy</p>
-                    <p className="text-gray-400">Hala č. 6</p>
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=Za+Zástávkou+377/3,+Praha-Dolní+Měcholupy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-white transition-colors block"
+                    >
+                      <p>Za Zástávkou 377/3</p>
+                      <p>109 00 Praha-Dolní Měcholupy</p>
+                      <p>Hala č. 6</p>
+                    </a>
                   </div>
                 </div>
 

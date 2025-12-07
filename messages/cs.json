@@ -3,7 +3,7 @@
     "home": "Domů",
     "about": "O nás",
     "products": "Produkty",
-    "films": "Filmy",
+    "films": "Reference",
     "references": "Galerie",
     "contact": "Kontakt"
   },
@@ -11,10 +11,10 @@
     "badge": "Profesionální filmové osvětlení",
     "title": "BALLOON",
     "subtitle": "LIGHT PRAG",
-    "description": "BALLOON LIGHT PRAG: Specializovaná osvětlovací technika pro film a reklamu.",
-    "description2": "Shadowless 360° light. Flicker-free. HMI & Tungsten.",
+    "description": "Profesionální osvětlovací balóny pro film a reklamu. Dokonalé světlo bez stínů.",
+    "description2": "Světlo bez stínů 360°. Bez blikání. HMI a Tungsten.",
     "productsButton": "Produkty",
-    "referencesButton": "Galerie"
+    "referencesButton": "Reference"
   },
   "features": {
     "title": "Proč zvolit Balloon Light Praha?",
@@ -33,14 +33,14 @@
     },
     "quality": {
       "title": "Profesionální kvalita",
-      "description": "Vysoká kvalita a spolehlivost pro náročné filmové projekty."
+      "description": "Za 10 let jsme nasvítili přes 2 900 projektů včetně hollywoodských trháků. Zvládneme interiér, exteriér i podvodní scény."
     }
   },
   "products": {
     "title": "Produkty",
     "subtitle": "Specializovaná osvětlovací technika pro film a reklamu",
     "moreInfo": "Specifikace",
-    "inquire": "Poptat",
+    "inquire": "Nezávazně poptat",
     "viewAll": "Zobrazit všechny produkty",
     "detail": {
       "usageImages": "Obrázky použití"
@@ -53,84 +53,84 @@
     },
     "balloons": {
       "name": "KOULE",
-      "description": "Koule je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné jej zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.",
+      "description": "Koule je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné ji zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.",
       "type": "LED RGBWW / Tungsten / HMI / Mix",
-      "power": "1400 W each color / 2800 W each color",
+      "power": "1400 W pro každou barvu / 2800 W pro každou barvu",
       "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
       "colorTemp": "3200K / 5600K",
-      "dimensions": "Diameter 3.7m / 4.3m x 3.7m / Diameter 5m"
+      "dimensions": "Průměr 3,7 m / 4,3 m x 3,7 m / Průměr 5 m"
     },
     "ledCube": {
       "name": "KOSTKY",
-      "description": "Kostka je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné jej zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.",
+      "description": "Kostka je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné ji zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.",
       "type": "LED RGBWW / Tungsten / HMI / Mix",
-      "power": "2 800 W each color / 1 400 W each color",
+      "power": "2 800 W pro každou barvu / 1 400 W pro každou barvu",
       "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
       "colorTemp": "2700K-6500K",
-      "dimensions": "3.5x3.5x3.5m / 2.5x2.5x2.5m"
+      "dimensions": "3,5 x 3,5 x 3,5 m / 2,5 x 2,5 x 2,5 m"
     },
     "tube": {
       "name": "TUBY",
-      "description": "Tuba je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné jej zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.",
+      "description": "Tuba je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné ji zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.",
       "type": "LED RGBWW / Tungsten / HMI / Mix",
-      "power": "1000 W each color / 3x300 W each color / 2000 W each color / 4000 W each color",
+      "power": "1000 W pro každou barvu / 3x300 W pro každou barvu / 2000 W pro každou barvu / 4000 W pro každou barvu",
       "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
       "colorTemp": "3200K / 5600K",
-      "dimensions": "500cm x 250cm / 700cm x 200cm / 800cm x 250cm / 970cm x 370cm"
+      "dimensions": "500 cm x 250 cm / 700 cm x 200 cm / 800 cm x 250 cm / 970 cm x 370 cm"
     },
     "cloud": {
       "name": "MATRACE",
-      "description": "Matrace je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné jej zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.",
+      "description": "Matrace je osvětlovací balón, který lze plnit heliem nebo vzduchem. Při plnění heliem se balón vznáší a může být umístěn volně v prostoru. Pokud je naplněná vzduchem, je nutné ji zavěsit nebo vyzdvihnout pomocí jeřábu, ke kterému se bezpečně upevní.",
       "type": "LED RGBWW / Tungsten / HMI / Mix",
-      "power": "1400 W-2800 W each color / 4x300 W each color / 4700 W each color",
+      "power": "1400 W - 2800 W pro každou barvu / 4x300 W pro každou barvu / 4700 W pro každou barvu",
       "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
       "colorTemp": "3200K / 5600K",
-      "dimensions": "4.5x4.5x1 / 8x6x1"
+      "dimensions": "4,5 x 4,5 x 1 m / 8 x 6 x 1 m"
     },
     "flatLight": {
       "name": "FLAT LIGHT (Stativové)",
       "description": "Naše Flat Light jsou lehká a úzká, díky unikátní skládací konstrukci nenáročná pro přepravu. Lze je umístit na stativ, případně zavěsit na lanech. Jsou oblíbená pro svou snadnou manipulaci i ovládání.",
       "type": "LED RGBWW",
-      "power": "300 - 500 W each color / 600 - 1000 W each color / 1200 - 2000 W each color",
+      "power": "300 - 500 W pro každou barvu / 600 - 1000 W pro každou barvu / 1200 - 2000 W pro každou barvu",
       "sourceType": "LED RGBWW",
       "colorTemp": "2700K-6500K",
-      "dimensions": "4x4 Feet / 4x8 Feet / 8x8 Feet"
+      "dimensions": "1,2 x 1,2 m (4x4 stopy) / 1,2 x 2,4 m (4x8 stop) / 2,4 x 2,4 m (8x8 stop)"
     },
     "sunCut": {
       "name": "SUNCUT balóny",
-      "description": "Naše stínící balony efektivně blokují přímé sluneční paprsky a umožňují precizní kontrolu světla",
+      "description": "Naše stínící balóny efektivně blokují přímé sluneční paprsky a umožňují precizní kontrolu světla. Ideální pro exteriérové natáčení a práci s denním světlem.",
       "type": "Stínění",
-      "power": "--",
+      "power": "Nevyžaduje napájení",
       "sourceType": "Stínění",
-      "colorTemp": "--",
-      "dimensions": "2,5m x 2,5m / 3m x 3m / 4,5m x 4,5m / 6m x 6m / 8m x 6m"
+      "colorTemp": "Nevyžaduje",
+      "dimensions": "2,5 m x 2,5 m / 3 m x 3 m / 4,5 m x 4,5 m / 6 m x 6 m / 8 m x 6 m"
     },
     "underwater": {
       "name": "PODVODNÍ SVĚTLA",
       "description": "Naše podvodní světla jsou využívaná především ve filmovém a TV průmyslu: Blade Runner 2049 / Mission: Impossible 6 / Submergence / Kingsman: The golden circle",
       "type": "LED RGBWW",
-      "power": "140W+",
+      "power": "140 W a více",
       "sourceType": "LED RGBWW",
       "colorTemp": "2700K-6500K",
-      "dimensions": "1246mm x 56mm"
+      "dimensions": "1246 mm x 56 mm"
     },
     "noGravity": {
       "name": "NO GRAVITY LIGHT",
       "description": "Naše No Gravity světla jsou využívaná především ve filmovém a TV průmyslu. Jejich výhodou jsou nízká výška, nízký objem helia, snadná manipulace i ovládání. Lze plnit i vzduchem.",
       "type": "LED RGBWW",
-      "power": "300 W each color",
+      "power": "300 W pro každou barvu",
       "sourceType": "LED RGBWW",
       "colorTemp": "2700K-6500K",
-      "dimensions": "3x3x1m / 2.8x2.8x0.8m"
+      "dimensions": "3 x 3 x 1 m / 2,8 x 2,8 x 0,8 m"
     },
     "stative": {
       "name": "STATIVOVÉ BALÓNY",
       "description": "Naše stativové balóny se plní vzduchem, a jsou proto velmi lehké. Lze je snadno zavěsit bez složitých riggingových systémů jako u běžných světel či panelů. Jsou oblíbené pro nízkou výšku, snadnou manipulaci a jednoduché ovládání.",
       "type": "LED RGBWW / Tungsten / HMI / Mix",
-      "power": "300 W each color",
+      "power": "300 W pro každou barvu",
       "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
       "colorTemp": "3200K / 5600K",
-      "dimensions": "120cm x 120cm x 30cm"
+      "dimensions": "120 cm x 120 cm x 30 cm"
     },
     "page": {
       "title": "Produkty",
@@ -182,15 +182,15 @@
     }
   },
   "films": {
-    "title": "Filmy, na kterých jsme se podíleli",
-    "subtitle": "Naše filmové projekty",
-    "description": "Naše osvětlení bylo použito v řadě úspěšných českých i zahraničních filmů."
+    "title": "Reference",
+    "subtitle": "Naše projekty",
+    "description": "Naše osvětlení bylo použito v řadě úspěšných českých i zahraničních projektů - od hollywoodských trháků po lokální produkce."
   },
   "about": {
     "title": "O nás",
     "company": "BALLOON LIGHT PRAG",
-    "description1": "Jsme partnerem pro kameramany a gaffery. Nabízíme glare-free osvětlení pro noční exteriéry, interiéry a eventy. Více než 15 let zkušeností na setu.",
-    "description2": "Specializujeme se na shadowless 360° osvětlení bez flickeru. Naše vybavení je navrženo pro náročné profesionální projekty a splňuje nejvyšší standardy kvality pro high-end cinema produkce.",
+    "description1": "Jsme partnerem pro kameramany a gaffery. Nabízíme osvětlení bez odlesků pro noční exteriéry, interiéry a eventy. Více než 15 let zkušeností na place.",
+    "description2": "Specializujeme se na osvětlení bez stínů 360° bez blikání. Naše vybavení je navrženo pro náročné profesionální projekty a splňuje nejvyšší standardy kvality pro vysokonákladové filmové produkce.",
     "services": {
       "title": "Naše služby",
       "rental": "Pronájem heliových balónů pro filmové osvětlení",
@@ -200,7 +200,7 @@
     },
     "experience": {
       "title": "Zkušenosti",
-      "description": "Máme dlouholeté zkušenosti v oblasti filmového osvětlení a spolupracujeme s předními českými i zahraničními produkcemi. Naše vybavení bylo použito v řadě úspěšných filmových a televizních projektů."
+      "description": "Za 10 let jsme nasvítili přes 2 900 projektů včetně hollywoodských trháků jako Blade Runner 2049, Mission: Impossible 6, nebo Kingsman. Spolupracujeme s předními českými i zahraničními produkcemi a naše vybavení bylo použito v řadě úspěšných filmových a televizních projektů."
     },
     "work": {
       "title": "Naše práce"
@@ -228,9 +228,9 @@
     }
   },
   "contact": {
-    "title": "Booking & Rental",
-    "subtitle": "Zavolejte nám přímo na plac",
-    "bookingTitle": "Booking & Rental",
+    "title": "Pronájem a rezervace",
+    "subtitle": "Zavolejte nám přímo na place",
+    "bookingTitle": "Pronájem a rezervace",
     "info": {
       "title": "Kontaktní informace",
       "phone": "Telefon",
@@ -262,8 +262,8 @@
     "copyright": "Všechna práva vyhrazena."
   },
   "meta": {
-    "title": "Balloon Light Prag - Specializovaná osvětlovací technika pro film a reklamu",
-    "description": "BALLOON LIGHT PRAG - Specializovaná osvětlovací technika pro film a reklamu. Shadowless 360° light. Flicker-free. HMI & Tungsten."
+    "title": "Balloon Light Prag - Profesionální osvětlovací balóny pro film a reklamu",
+    "description": "BALLOON LIGHT PRAG - Profesionální osvětlovací balóny pro film a reklamu. Světlo bez stínů 360°, bez blikání. HMI a Tungsten osvětlení. Za 10 let jsme nasvítili přes 2 900 projektů."
   }
 }
 

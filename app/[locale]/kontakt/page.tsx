@@ -12,7 +12,7 @@ export async function generateMetadata({
 
   return {
     title: `${t.contact.title} - Balloon Light Praha`,
-    description: t.contact.subtitle,
+    description: "Kontaktujte nás pro pronájem profesionálních osvětlovacích balónů pro film a reklamu. Zavolejte nám přímo na place nebo nás navštivte v Praze.",
   }
 }
 

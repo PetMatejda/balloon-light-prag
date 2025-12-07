@@ -3,7 +3,7 @@
     "home": "Home",
     "about": "About",
     "products": "Gear",
-    "films": "Films",
+    "films": "References",
     "references": "Gallery",
     "contact": "Contact"
   },
@@ -11,7 +11,7 @@
     "badge": "Professional film lighting",
     "title": "BALLOON",
     "subtitle": "LIGHT PRAG",
-    "description": "BALLOON LIGHT PRAG: Specialized lighting equipment for film and advertising.",
+    "description": "Professional lighting balloons for film and advertising. Perfect shadowless light.",
     "description2": "Shadowless 360° light. Flicker-free. HMI & Tungsten.",
     "productsButton": "Gear",
     "referencesButton": "Gallery"
@@ -33,14 +33,14 @@
     },
     "quality": {
       "title": "Professional quality",
-      "description": "High quality and reliability for demanding film projects."
+      "description": "Over 10 years we have lit more than 2,900 projects including Hollywood blockbusters. We handle interiors, exteriors, and underwater scenes."
     }
   },
   "products": {
     "title": "Gear",
     "subtitle": "Specialized lighting equipment for film and advertising",
     "moreInfo": "Specifications",
-    "inquire": "Inquire",
+    "inquire": "Request quote",
     "viewAll": "View all products",
     "detail": {
       "usageImages": "Usage Images"
@@ -182,9 +182,9 @@
     }
   },
   "films": {
-    "title": "Films We Contributed To",
-    "subtitle": "Our Film Projects",
-    "description": "Our lighting has been used in a number of successful Czech and international films."
+    "title": "References",
+    "subtitle": "Our Projects",
+    "description": "Our lighting has been used in a number of successful projects - from Hollywood blockbusters to local productions."
   },
   "about": {
     "title": "About us",
@@ -200,7 +200,7 @@
     },
     "experience": {
       "title": "Experience",
-      "description": "We have many years of experience in film lighting and work with leading Czech and international productions. Our equipment has been used in a number of successful film and television projects."
+      "description": "Over 10 years we have lit more than 2,900 projects including Hollywood blockbusters like Blade Runner 2049, Mission: Impossible 6, or Kingsman. We work with leading Czech and international productions and our equipment has been used in a number of successful film and television projects."
     },
     "work": {
       "title": "Our work"
@@ -263,7 +263,7 @@
   },
   "meta": {
     "title": "Balloon Light Prag - Specialized lighting equipment for film and advertising",
-    "description": "BALLOON LIGHT PRAG - Specialized lighting equipment for film and advertising. Shadowless 360° light. Flicker-free. HMI & Tungsten."
+    "description": "BALLOON LIGHT PRAG - Professional lighting balloons for film and advertising. Shadowless 360° light, flicker-free. HMI & Tungsten lighting. Over 10 years we have lit more than 2,900 projects."
   }
 }
 

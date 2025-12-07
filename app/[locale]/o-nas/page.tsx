@@ -12,7 +12,7 @@ export async function generateMetadata({
 
   return {
     title: `${t.about.title} - Balloon Light Praha`,
-    description: t.about.description1,
+    description: "Balloon Light Prag - partner pro kameramany a gaffery. Více než 15 let zkušeností na place. Specializujeme se na osvětlení bez stínů 360° bez blikání.",
   }
 }
 

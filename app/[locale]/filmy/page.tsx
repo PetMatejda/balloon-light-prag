@@ -12,7 +12,7 @@ export async function generateMetadata({
 
   return {
     title: `${t.films.title} - Balloon Light Praha`,
-    description: t.films.description,
+    description: "Naše osvětlení bylo použito v řadě úspěšných projektů - od hollywoodských trháků jako Blade Runner 2049 po lokální produkce. Prohlédněte si naše filmové projekty.",
   }
 }
 

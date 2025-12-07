@@ -12,7 +12,7 @@ export async function generateMetadata({
 
   return {
     title: `${t.products.page.title} - Balloon Light Praha`,
-    description: t.products.page.description,
+    description: "Specializujeme se na profesionální heliové balóny pro filmové osvětlení. Nabízíme širokou škálu výkonů a typů osvětlení - LED RGBWW, Tungsten, HMI a kombinované.",
   }
 }
 

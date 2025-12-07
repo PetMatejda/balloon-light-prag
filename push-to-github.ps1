@@ -1,76 +1,33 @@
-# Push to GitHub Script
-Write-Host "=== Pushing to GitHub ===" -ForegroundColor Cyan
-Write-Host ""
+# PowerShell script to push changes to GitHub
+Set-Location "c:\Users\petrm\OneDrive\Dokumenty\Coursor projects\balloon-light-prag"
 
-# Configure remote
-Write-Host "Configuring remote..." -ForegroundColor Yellow
-git remote remove origin 2>$null
-git remote add origin https://github.com/PetMatejda/balloon-light-prag.git
-Write-Host "✓ Remote configured" -ForegroundColor Green
+Write-Host "=== Checking Git Status ===" -ForegroundColor Cyan
+git status
 
-# Set branch to main
-Write-Host "Setting branch to main..." -ForegroundColor Yellow
-git branch -M main
-Write-Host "✓ Branch set to main" -ForegroundColor Green
-
-# Add all changes
-Write-Host "Adding all changes..." -ForegroundColor Yellow
+Write-Host "`n=== Adding all changes ===" -ForegroundColor Cyan
 git add -A
-$status = git status --short
-if ($status) {
-    Write-Host "Files to commit:" -ForegroundColor Cyan
-    Write-Host $status
-} else {
-    Write-Host "No changes to commit" -ForegroundColor Yellow
-}
 
-# Commit
-Write-Host ""
-Write-Host "Creating commit..." -ForegroundColor Yellow
-$commitMessage = @"
-Fix: Add missing noGravity and stative products to all language files
+Write-Host "`n=== Creating commit ===" -ForegroundColor Cyan
+git commit -m "Improve website clarity based on audit: translations, copy improvements, meta descriptions for all languages
 
-- Added noGravity and stative products to en.json, de.json, hu.json, es.json, it.json
-- Fixed duplicate main() call in scrape-gallery-simple.js
-- All language files now have consistent structure matching cs.json
-"@
+- Počeštění anglických termínů (Shadowless -> Světlo bez stínů, etc.)
+- Opraveny gramatické neshody v popisech produktů
+- Doplněna chybějící data u SUNCUT balónů
+- Sjednoceno názvosloví (Filmy -> Reference)
+- Vylepšeno copy v sekci O nás (konkrétní údaje)
+- Vylepšena CTA tlačítka (Nezávazně poptat)
+- Přidány meta popisy pro všechny podstránky
+- Klikatelná adresa pro Google Maps
+- Všechny změny aplikovány na všechny jazyky: CS, EN, DE, ES, HU, IT"
 
-git commit -m $commitMessage
-if ($LASTEXITCODE -eq 0) {
-    Write-Host "✓ Commit created" -ForegroundColor Green
-} else {
-    Write-Host "⚠️  Commit failed or no changes to commit" -ForegroundColor Yellow
-}
+Write-Host "`n=== Setting remote URL ===" -ForegroundColor Cyan
+git remote set-url origin https://github.com/PetMatejda/balloon-light-prag.git
 
-# Push
-Write-Host ""
-Write-Host "Pushing to GitHub..." -ForegroundColor Yellow
-Write-Host "Repository: https://github.com/PetMatejda/balloon-light-prag.git" -ForegroundColor Cyan
-Write-Host ""
-Write-Host "⚠️  If prompted for credentials:" -ForegroundColor Yellow
-Write-Host "   - Username: PetMatejda" -ForegroundColor White
-Write-Host "   - Password: Use Personal Access Token (not your GitHub password)" -ForegroundColor White
-Write-Host "   - Create token at: https://github.com/settings/tokens" -ForegroundColor White
-Write-Host ""
+Write-Host "`n=== Setting branch to main ===" -ForegroundColor Cyan
+git branch -M main
 
+Write-Host "`n=== Pushing to GitHub ===" -ForegroundColor Cyan
 git push -u origin main
 
-if ($LASTEXITCODE -eq 0) {
-    Write-Host ""
-    Write-Host "✅ Successfully pushed to GitHub!" -ForegroundColor Green
-    Write-Host "View your repository at: https://github.com/PetMatejda/balloon-light-prag" -ForegroundColor Cyan
-} else {
-    Write-Host ""
-    Write-Host "❌ Push failed. Possible reasons:" -ForegroundColor Red
-    Write-Host "   1. Authentication required (Personal Access Token)" -ForegroundColor Yellow
-    Write-Host "   2. Repository doesn't exist on GitHub yet" -ForegroundColor Yellow
-    Write-Host "   3. Network issues" -ForegroundColor Yellow
-    Write-Host ""
-    Write-Host "To create the repository on GitHub:" -ForegroundColor Cyan
-    Write-Host "   1. Go to: https://github.com/new" -ForegroundColor White
-    Write-Host "   2. Repository name: balloon-light-prag" -ForegroundColor White
-    Write-Host "   3. Don't initialize with README" -ForegroundColor White
-    Write-Host "   4. Click 'Create repository'" -ForegroundColor White
-    Write-Host "   5. Run this script again" -ForegroundColor White
-}
-
+Write-Host "`n=== Done! ===" -ForegroundColor Green
+Write-Host "Check your repository at: https://github.com/PetMatejda/balloon-light-prag" -ForegroundColor Yellow
