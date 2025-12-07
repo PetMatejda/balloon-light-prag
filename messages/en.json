@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "About",
     "products": "Gear",
+    "films": "Films",
     "references": "Gallery",
     "contact": "Contact"
   },
@@ -160,11 +161,12 @@
     "usage": {
       "title": "Light Usage During Filming",
       "subtitle": "Photos from filming showing our lighting in action"
-    },
-    "films": {
-      "title": "Films We Contributed To",
-      "subtitle": "Posters of film projects we contributed to"
     }
+  },
+  "films": {
+    "title": "Films We Contributed To",
+    "subtitle": "Our Film Projects",
+    "description": "Our lighting has been used in a number of successful Czech and international films."
   },
   "about": {
     "title": "About us",

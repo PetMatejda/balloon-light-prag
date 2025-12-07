@@ -3,6 +3,7 @@
     "home": "Inicio",
     "about": "Sobre nosotros",
     "products": "Equipo",
+    "films": "Películas",
     "references": "Galería",
     "contact": "Contacto"
   },
@@ -160,11 +161,12 @@
     "usage": {
       "title": "Uso de iluminación durante el rodaje",
       "subtitle": "Fotos del rodaje mostrando nuestra iluminación en acción"
-    },
-    "films": {
-      "title": "Películas en las que contribuimos",
-      "subtitle": "Pósters de proyectos cinematográficos en los que contribuimos"
     }
+  },
+  "films": {
+    "title": "Películas en las que contribuimos",
+    "subtitle": "Nuestros proyectos cinematográficos",
+    "description": "Nuestra iluminación se ha utilizado en una serie de películas checas e internacionales exitosas."
   },
   "about": {
     "title": "Sobre nosotros",

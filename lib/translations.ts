@@ -4,6 +4,7 @@ import enMessages from '@/messages/en.json'
 import huMessages from '@/messages/hu.json'
 import esMessages from '@/messages/es.json'
 import itMessages from '@/messages/it.json'
+import deMessages from '@/messages/de.json'
 
 type Messages = typeof csMessages
 
@@ -13,6 +14,7 @@ const messages: Record<Locale, Messages> = {
   hu: huMessages,
   es: esMessages,
   it: itMessages,
+  de: deMessages,
 }
 
 export type { Locale }

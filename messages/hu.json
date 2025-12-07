@@ -3,6 +3,7 @@
     "home": "Kezdőlap",
     "about": "Rólunk",
     "products": "Technika",
+    "films": "Filmek",
     "references": "Galéria",
     "contact": "Kapcsolat"
   },
@@ -160,11 +161,12 @@
     "usage": {
       "title": "Világítás használata forgatás közben",
       "subtitle": "Fotók a forgatásról, amelyek bemutatják világításunkat akcióban"
-    },
-    "films": {
-      "title": "Filmek, amelyekben részt vettünk",
-      "subtitle": "A filmprojektek poszterei, amelyekben részt vettünk"
     }
+  },
+  "films": {
+    "title": "Filmek, amelyekben részt vettünk",
+    "subtitle": "Filmprojektjeink",
+    "description": "Világításunkat számos sikeres cseh és nemzetközi filmben használták."
   },
   "about": {
     "title": "Rólunk",

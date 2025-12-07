@@ -51,6 +51,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href={`/${currentLocale}/filmy`}
+                  className="text-sm text-gray-400 hover:text-white transition-colors"
+                >
+                  {t.nav.films}
+                </Link>
+              </li>
+              <li>
+                <Link
                   href={`/${currentLocale}/reference`}
                   className="text-sm text-gray-400 hover:text-white transition-colors"
                 >

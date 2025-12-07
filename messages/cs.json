@@ -2,7 +2,8 @@
   "nav": {
     "home": "Domů",
     "about": "O nás",
-    "products": "Technika",
+    "products": "Produkty",
+    "films": "Filmy",
     "references": "Galerie",
     "contact": "Kontakt"
   },
@@ -12,7 +13,7 @@
     "subtitle": "LIGHT PRAG",
     "description": "BALLOON LIGHT PRAG: Specializovaná osvětlovací technika pro film a reklamu.",
     "description2": "Shadowless 360° light. Flicker-free. HMI & Tungsten.",
-    "productsButton": "Technika",
+    "productsButton": "Produkty",
     "referencesButton": "Galerie"
   },
   "features": {
@@ -36,7 +37,7 @@
     }
   },
   "products": {
-    "title": "Technika",
+    "title": "Produkty",
     "subtitle": "Specializovaná osvětlovací technika pro film a reklamu",
     "moreInfo": "Specifikace",
     "inquire": "Poptat",
@@ -114,7 +115,7 @@
       "dimensions": "Na dotaz"
     },
     "page": {
-      "title": "Technika",
+      "title": "Produkty",
       "subtitle": "Specializovaná osvětlovací technika",
       "description": "Specializujeme se na profesionální heliové balóny pro filmové osvětlení. Nabízíme širokou škálu výkonů a typů osvětlení pro každou produkci.",
       "lightingTypes": {
@@ -160,11 +161,12 @@
     "usage": {
       "title": "Využití světel při natáčení",
       "subtitle": "Fotografie z natáčení ukazující naše osvětlení v akci"
-    },
-    "films": {
-      "title": "Filmy, na kterých jsme se podíleli",
-      "subtitle": "Postery projektů filmů, na kterých jsme se podíleli"
     }
+  },
+  "films": {
+    "title": "Filmy, na kterých jsme se podíleli",
+    "subtitle": "Naše filmové projekty",
+    "description": "Naše osvětlení bylo použito v řadě úspěšných českých i zahraničních filmů."
   },
   "about": {
     "title": "O nás",

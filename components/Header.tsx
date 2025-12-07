@@ -25,6 +25,7 @@ export default function Header() {
     { href: `/${currentLocale}`, label: t.nav.home },
     { href: `/${currentLocale}/o-nas`, label: t.nav.about },
     { href: `/${currentLocale}/produkty`, label: t.nav.products },
+    { href: `/${currentLocale}/filmy`, label: t.nav.films },
     { href: `/${currentLocale}/reference`, label: t.nav.references },
     { href: `/${currentLocale}/kontakt`, label: t.nav.contact },
   ]

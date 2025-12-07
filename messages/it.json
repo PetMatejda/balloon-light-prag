@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "Chi siamo",
     "products": "Attrezzatura",
+    "films": "Film",
     "references": "Galleria",
     "contact": "Contatto"
   },
@@ -160,11 +161,12 @@
     "usage": {
       "title": "Uso dell'illuminazione durante le riprese",
       "subtitle": "Foto delle riprese che mostrano la nostra illuminazione in azione"
-    },
-    "films": {
-      "title": "Film a cui abbiamo contribuito",
-      "subtitle": "Locandine dei progetti cinematografici a cui abbiamo contribuito"
     }
+  },
+  "films": {
+    "title": "Film a cui abbiamo contribuito",
+    "subtitle": "I nostri progetti cinematografici",
+    "description": "La nostra illuminazione è stata utilizzata in una serie di film cechi e internazionali di successo."
   },
   "about": {
     "title": "Chi siamo",

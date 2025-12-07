@@ -12,6 +12,7 @@ const languageNames: Record<Locale, string> = {
   hu: 'Magyar',
   es: 'Español',
   it: 'Italiano',
+  de: 'Deutsch',
 }
 
 interface LanguageSwitcherProps {

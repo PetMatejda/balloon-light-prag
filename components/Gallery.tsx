@@ -12,16 +12,10 @@ const usageImages = [
   '/images/balloon.72b8c68083eb4d2c6ad5.webp',
   '/images/led-cube.c743afcbbb2f141d921d.webp',
   '/images/cloud.b20bf445c1377f77ce34.webp',
-]
-
-// Film posters/projects
-const filmPosters = [
-  '/images/film1.218a1d0efcf08e6b437b.webp',
-  '/images/civilwar.adc19be35ec1c30fab33.webp',
-  '/images/spectre.ee4cc6aa172104cef7c1.webp',
-  '/images/terminator.87fd768205dd99bdd550.webp',
-  '/images/inglorious.80f3d76ebc0566b8c159.webp',
-  '/images/volavka.4856b58e51515d8d6bd0.webp',
+  '/images/elipsy_stative.1c10979080babe4cbe00.webp',
+  '/images/no-gravity.ef3c44f8b36fea3e5d8a.webp',
+  '/images/podvodni.a0455413779cdf5ffadc.webp',
+  '/images/suncut.925bf50780c4b9762413.webp',
 ]
 
 export default function Gallery() {
@@ -80,48 +74,6 @@ export default function Gallery() {
                   <Image
                     src={src}
                     alt={`${t.gallery.usage.title} ${index + 1}`}
-                    width={800}
-                    height={600}
-                    className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
-
-        {/* Film Posters Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="border-t border-gray-800 pt-24"
-        >
-          <h3
-            className="mb-8 text-3xl font-bold uppercase tracking-tight"
-            style={{ fontFamily: 'system-ui, sans-serif', fontWeight: 700 }}
-          >
-            {t.gallery.films.title}
-          </h3>
-          <p className="mb-8 text-gray-400">
-            {t.gallery.films.subtitle}
-          </p>
-          <div className="columns-1 gap-4 md:columns-2 lg:columns-3">
-            {filmPosters.map((src, index) => (
-              <motion.div
-                key={src}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="group relative mb-4 overflow-hidden break-inside-avoid"
-              >
-                <div className="relative aspect-auto overflow-hidden border border-gray-800 bg-[#0a0a0a] transition-all duration-300 hover:border-gray-600">
-                  <Image
-                    src={src}
-                    alt={`${t.gallery.films.title} ${index + 1}`}
                     width={800}
                     height={600}
                     className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-105"

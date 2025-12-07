@@ -1,0 +1,251 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "products": "Produkte",
+    "films": "Filme",
+    "references": "Galerie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Professionelle Filmbeleuchtung",
+    "title": "BALLOON",
+    "subtitle": "LIGHT PRAG",
+    "description": "BALLOON LIGHT PRAG: Spezialisierte Beleuchtungstechnik für Film und Werbung.",
+    "description2": "Shadowless 360° light. Flicker-free. HMI & Tungsten.",
+    "productsButton": "Produkte",
+    "referencesButton": "Galerie"
+  },
+  "features": {
+    "title": "Warum Balloon Light Praha wählen?",
+    "subtitle": "Professionelle Lösungen für Filmbeleuchtung mit langjähriger Tradition und Erfahrung",
+    "balloons": {
+      "title": "Heliumballons",
+      "description": "Professionelle Heliumballons zur Beleuchtung von Innen- und Außenräumen mit hoher Leistung und Qualität."
+    },
+    "film": {
+      "title": "Filmindustrie",
+      "description": "Spezialisierung auf Beleuchtung für Film- und Fernsehproduktionen, Werbespots und Dokumentarfilme."
+    },
+    "lighting": {
+      "title": "Verschiedene Beleuchtungstypen",
+      "description": "Gelbes (Tungsten), weißes (HMI) und kombiniertes Licht für jede Produktion."
+    },
+    "quality": {
+      "title": "Professionelle Qualität",
+      "description": "Hohe Qualität und Zuverlässigkeit für anspruchsvolle Filmprojekte."
+    }
+  },
+  "products": {
+    "title": "Produkte",
+    "subtitle": "Spezialisierte Beleuchtungstechnik für Film und Werbung",
+    "moreInfo": "Spezifikationen",
+    "inquire": "Anfragen",
+    "viewAll": "Alle Produkte anzeigen",
+    "detail": {
+      "usageImages": "Verwendungsbilder"
+    },
+    "specs": {
+      "power": "Leistung",
+      "sourceType": "Quelltyp",
+      "colorTemp": "Farbtemperatur",
+      "dimensions": "Abmessungen"
+    },
+    "balloons": {
+      "name": "Sphärische Ballons / Kugeln",
+      "description": "Professionelle Heliumballons zur Beleuchtung von Innen- und Außenräumen in der Filmindustrie. Schattenlose 360° flickerfreie Beleuchtung.",
+      "type": "HMI / Tungsten",
+      "power": "1200W / 2500W / 4000W",
+      "sourceType": "HMI / Tungsten (Halogen)",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Durchmesser: 200-300 cm"
+    },
+    "ledCube": {
+      "name": "LED Cube",
+      "description": "Modularer LED-Würfel mit hoher Leistung von 4,8 KW und vollständig einstellbarer Lichtfarbe (2700K-6500K)",
+      "type": "LED",
+      "power": "4800W",
+      "sourceType": "LED",
+      "colorTemp": "2700K-6500K",
+      "dimensions": "64x64x64 cm"
+    },
+    "tube": {
+      "name": "Sirocco Tube / Airstar Tube",
+      "description": "Zylindrische Ballons zur Beleuchtung in niedrigeren Deckenhöhen und Tunneln. Schattenlose 360° Beleuchtung.",
+      "type": "HMI / Tungsten",
+      "power": "1200W / 2500W / 4000W",
+      "sourceType": "HMI / Tungsten (Halogen)",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Durchmesser: 150-200 cm, Länge: 300-500 cm"
+    },
+    "cloud": {
+      "name": "Cloud / Pad Light",
+      "description": "Flaches diffuses Licht mit 2,5 KW Leistung für subtile Lichteffekte und atmosphärische Szenen",
+      "type": "HMI",
+      "power": "2500W",
+      "sourceType": "HMI",
+      "colorTemp": "5600K",
+      "dimensions": "Durchmesser: 250-300 cm"
+    },
+    "flatLight": {
+      "name": "Flat Light",
+      "description": "Flaches Licht für gleichmäßige Lichtverteilung am Set, ideal zur Schatteneliminierung",
+      "type": "HMI / Tungsten",
+      "power": "Variabel",
+      "sourceType": "HMI / Tungsten",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Auf Anfrage"
+    },
+    "sunCut": {
+      "name": "Sun Cut",
+      "description": "Spezielle Beleuchtung zur Simulation von Sonnenlicht und Erzeugung natürlicher Schatten",
+      "type": "HMI",
+      "power": "Variabel",
+      "sourceType": "HMI",
+      "colorTemp": "5600K",
+      "dimensions": "Auf Anfrage"
+    },
+    "underwater": {
+      "name": "Unterwasserbeleuchtung",
+      "description": "Wasserdichte Beleuchtung für Unterwasseraufnahmen und feuchte Umgebungen",
+      "type": "LED / HMI",
+      "power": "Variabel",
+      "sourceType": "LED / HMI",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "Auf Anfrage"
+    },
+    "page": {
+      "title": "Produkte",
+      "subtitle": "Spezialisierte Beleuchtungstechnik",
+      "description": "Wir spezialisieren uns auf professionelle Heliumballons für Filmbeleuchtung. Wir bieten eine breite Palette von Leistungen und Beleuchtungstypen für jede Produktion.",
+      "lightingTypes": {
+        "title": "Beleuchtungstypen",
+        "subtitle": "Wir bieten verschiedene Beleuchtungstypen für jede Produktion",
+        "tungsten": {
+          "title": "Tungsten (Gelb)",
+          "description": "Klassisches gelbes Licht mit warmer Lichtfarbe (3200K), ideal für Innenräume und Nachtszenen. Geeignet zur Schaffung einer warmen, natürlichen Atmosphäre.",
+          "powers": "Verfügbare Leistungen: 1KW, 2KW, 3KW, 5KW"
+        },
+        "hmi": {
+          "title": "HMI (Weiß)",
+          "description": "Weißes Tageslicht mit hoher Leistung (5600K), perfekt für Außenaufnahmen und Tagesszenen. Hervorragend zur Simulation von Tageslicht.",
+          "powers": "Verfügbare Leistungen: 1KW, 2KW, 3KW, 5KW"
+        },
+        "combined": {
+          "title": "Kombiniert",
+          "description": "Kombination aus Tungsten (3200K) und HMI (5600K) für flexible Beleuchtung verschiedener Szenen und Bedingungen. Möglichkeit zum Wechseln zwischen beiden Beleuchtungstypen.",
+          "powers": "Verfügbare Leistungen: 1KW, 2KW, 3KW, 5KW"
+        }
+      }
+    }
+  },
+  "gear": {
+    "title": "UNSERE AUSRÜSTUNG",
+    "model": "MODELL",
+    "output": "LEISTUNG",
+    "kelvin": "KELVIN"
+  },
+  "specs": {
+    "title": "TECHNISCHE SPEZIFIKATIONEN",
+    "model": "MODELL",
+    "type": "TYP",
+    "output": "LEISTUNG",
+    "kelvin": "KELVIN",
+    "wattage": "LEISTUNGSAUFNAHME",
+    "dimming": "DIMMUNG",
+    "cri": "CRI"
+  },
+  "gallery": {
+    "title": "GALERIE",
+    "subtitle": "AUSGEWÄHLTE PRODUKTIONEN",
+    "usage": {
+      "title": "Lichtverwendung während der Aufnahme",
+      "subtitle": "Fotos von Aufnahmen, die unsere Beleuchtung in Aktion zeigen"
+    }
+  },
+  "films": {
+    "title": "Filme, an denen wir mitgewirkt haben",
+    "subtitle": "Unsere Filmprojekte",
+    "description": "Unsere Beleuchtung wurde in einer Reihe erfolgreicher tschechischer und internationaler Filme verwendet."
+  },
+  "about": {
+    "title": "Über uns",
+    "company": "BALLOON LIGHT PRAG",
+    "description1": "Wir sind Partner für Kameraleute und Gaffers. Wir bieten blendfreie Beleuchtung für nächtliche Außenaufnahmen, Innenräume und Veranstaltungen. Mehr als 15 Jahre Erfahrung am Set.",
+    "description2": "Wir spezialisieren uns auf schattenlose 360° flickerfreie Beleuchtung. Unsere Ausrüstung ist für anspruchsvolle professionelle Projekte konzipiert und erfüllt die höchsten Qualitätsstandards für High-End-Kinoproduktionen.",
+    "services": {
+      "title": "Unsere Dienstleistungen",
+      "rental": "Vermietung von Heliumballons für Filmbeleuchtung",
+      "consulting": "Professionelle Beleuchtungsberatung",
+      "support": "Technischer Support am Set",
+      "solutions": "Komplette Beleuchtungslösungen für Filmproduktionen"
+    },
+    "experience": {
+      "title": "Erfahrung",
+      "description": "Wir haben langjährige Erfahrung in der Filmbeleuchtung und arbeiten mit führenden tschechischen und internationalen Produktionen zusammen. Unsere Ausrüstung wurde in einer Reihe erfolgreicher Film- und Fernsehprojekte eingesetzt."
+    },
+    "work": {
+      "title": "Unsere Arbeit"
+    }
+  },
+  "references": {
+    "title": "Referenzen",
+    "subtitle": "Unsere Projekte",
+    "description": "Unsere Beleuchtung wurde in einer Reihe erfolgreicher Film-, Fernseh- und Werbeprojekte eingesetzt",
+    "films": {
+      "title": "Filmproduktionen",
+      "description": "Unsere Beleuchtung wurde in einer Reihe erfolgreicher tschechischer und internationaler Filme verwendet."
+    },
+    "tv": {
+      "title": "Fernsehproduktionen",
+      "description": "Wir arbeiten mit führenden Fernsehsendern an verschiedenen Projekten zusammen."
+    },
+    "ads": {
+      "title": "Werbung und Dokumentationen",
+      "description": "Unsere Beleuchtung finden Sie auch in Werbespots und Dokumentationen."
+    },
+    "gallery": {
+      "title": "Galerie",
+      "subtitle": "Alle unsere Projekte"
+    }
+  },
+  "contact": {
+    "title": "Buchung & Vermietung",
+    "subtitle": "Rufen Sie uns direkt am Set an",
+    "bookingTitle": "Buchung & Vermietung",
+    "info": {
+      "title": "Kontaktinformationen",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "address": "Adresse",
+      "hours": "Geschäftszeiten",
+      "hoursWeekdays": "Montag - Freitag: 9:00 - 17:00",
+      "hoursWeekend": "Samstag - Sonntag: Nach Vereinbarung"
+    },
+    "form": {
+      "title": "Schreiben Sie uns",
+      "name": "Vollständiger Name",
+      "namePlaceholder": "Ihr Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre@email.de",
+      "phone": "Telefon",
+      "phonePlaceholder": "+420 XXX XXX XXX",
+      "message": "Nachricht",
+      "messagePlaceholder": "Ihre Nachricht...",
+      "submit": "Nachricht senden"
+    }
+  },
+  "footer": {
+    "company": "BALLOON LIGHT PRAHA",
+    "description": "Professionelle Heliumballons zur Beleuchtung von Innen- und Außenräumen in der Filmindustrie.",
+    "navigation": "Navigation",
+    "contact": "Kontakt",
+    "instagram": "Folgen Sie uns auf Instagram für aktuelle Projektbilder",
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "meta": {
+    "title": "Balloon Light Prag - Spezialisierte Beleuchtungstechnik für Film und Werbung",
+    "description": "BALLOON LIGHT PRAG - Spezialisierte Beleuchtungstechnik für Film und Werbung. Shadowless 360° light. Flicker-free. HMI & Tungsten."
+  }
+}
+

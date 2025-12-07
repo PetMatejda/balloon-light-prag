@@ -8,36 +8,6 @@ import { useTranslations } from '@/hooks/useTranslations'
 export default function ReferencesContent() {
   const { t } = useTranslations()
 
-  const references = [
-    {
-      title: t.references.films.title,
-      description: t.references.films.description,
-      images: [
-        '/images/film1.218a1d0efcf08e6b437b.webp',
-        '/images/civilwar.adc19be35ec1c30fab33.webp',
-        '/images/spectre.ee4cc6aa172104cef7c1.webp',
-        '/images/terminator.87fd768205dd99bdd550.webp',
-        '/images/inglorious.80f3d76ebc0566b8c159.webp',
-      ],
-    },
-    {
-      title: t.references.tv.title,
-      description: t.references.tv.description,
-      images: [
-        '/images/volavka.4856b58e51515d8d6bd0.webp',
-        '/images/crowSecond.9b62e1cfd595623529b3.jpg',
-        '/images/crowThird.1024a05384cfac4757e4.webp',
-      ],
-    },
-    {
-      title: t.references.ads.title,
-      description: t.references.ads.description,
-      images: [
-        '/images/IMG_20200930_102505.9846e956999d102bd3eb.webp',
-      ],
-    },
-  ]
-
   return (
     <div className="min-h-screen bg-[#050505] text-white">
       {/* Hero Section */}
@@ -78,39 +48,6 @@ export default function ReferencesContent() {
               {t.references.description}
             </p>
           </motion.div>
-
-          {references.map((reference, index) => (
-            <motion.div
-              key={reference.title}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: index * 0.2 }}
-              className="mb-24"
-            >
-              <h3 className="mb-4 text-3xl font-bold">{reference.title}</h3>
-              <p className="mb-8 text-lg text-gray-400">{reference.description}</p>
-              <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {reference.images.map((image, imgIndex) => (
-                  <motion.div
-                    key={image}
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: imgIndex * 0.1 }}
-                    className="group relative aspect-[4/3] overflow-hidden rounded-lg border border-gray-800"
-                  >
-                    <Image
-                      src={image}
-                      alt={reference.title}
-                      fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
-                  </motion.div>
-                ))}
-              </div>
-            </motion.div>
-          ))}
         </div>
       </section>
 
