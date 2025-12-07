@@ -114,6 +114,24 @@
       "colorTemp": "3200K / 5600K",
       "dimensions": "A solicitud"
     },
+    "noGravity": {
+      "name": "NO GRAVITY LIGHT",
+      "description": "Nuestras luces No Gravity se utilizan principalmente en la industria cinematográfica y de TV. Sus ventajas son baja altura, bajo volumen de helio, fácil manejo y control. También se pueden llenar con aire.",
+      "type": "LED RGBWW",
+      "power": "300 W cada color",
+      "sourceType": "LED RGBWW",
+      "colorTemp": "2700K-6500K",
+      "dimensions": "3x3x1m / 2.8x2.8x0.8m"
+    },
+    "stative": {
+      "name": "GLOBOS DE ESTATIVO",
+      "description": "Nuestros globos de estativo se llenan con aire, por lo que son muy ligeros. Se pueden colgar fácilmente sin sistemas de rigging complejos como las luces o paneles regulares. Populares por su baja altura, fácil manejo y control simple.",
+      "type": "LED RGBWW / Tungsten / HMI / Mix",
+      "power": "300 W cada color",
+      "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "120cm x 120cm x 30cm"
+    },
     "page": {
       "title": "Equipo",
       "subtitle": "Equipamiento de iluminación especializado",

@@ -114,6 +114,24 @@
       "colorTemp": "3200K / 5600K",
       "dimensions": "Auf Anfrage"
     },
+    "noGravity": {
+      "name": "NO GRAVITY LIGHT",
+      "description": "Unsere No Gravity Lichter werden hauptsächlich in der Film- und TV-Branche eingesetzt. Ihre Vorteile sind niedrige Höhe, geringes Heliumvolumen, einfache Handhabung und Steuerung. Können auch mit Luft gefüllt werden.",
+      "type": "LED RGBWW",
+      "power": "300 W pro Farbe",
+      "sourceType": "LED RGBWW",
+      "colorTemp": "2700K-6500K",
+      "dimensions": "3x3x1m / 2.8x2.8x0.8m"
+    },
+    "stative": {
+      "name": "STATIVBALLONS",
+      "description": "Unsere Stativballons werden mit Luft gefüllt und sind daher sehr leicht. Sie können ohne komplexe Rigging-Systeme wie normale Lichter oder Panels einfach aufgehängt werden. Beliebt wegen niedriger Höhe, einfacher Handhabung und einfacher Steuerung.",
+      "type": "LED RGBWW / Tungsten / HMI / Mix",
+      "power": "300 W pro Farbe",
+      "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "120cm x 120cm x 30cm"
+    },
     "page": {
       "title": "Produkte",
       "subtitle": "Spezialisierte Beleuchtungstechnik",

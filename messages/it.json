@@ -114,6 +114,24 @@
       "colorTemp": "3200K / 5600K",
       "dimensions": "Su richiesta"
     },
+    "noGravity": {
+      "name": "NO GRAVITY LIGHT",
+      "description": "Le nostre luci No Gravity sono utilizzate principalmente nell'industria cinematografica e televisiva. I loro vantaggi sono l'altezza ridotta, il basso volume di elio, la facile manipolazione e il controllo. Possono anche essere riempite con aria.",
+      "type": "LED RGBWW",
+      "power": "300 W per colore",
+      "sourceType": "LED RGBWW",
+      "colorTemp": "2700K-6500K",
+      "dimensions": "3x3x1m / 2.8x2.8x0.8m"
+    },
+    "stative": {
+      "name": "PALLONI DA STATIVO",
+      "description": "I nostri palloni da stativo sono riempiti con aria, quindi sono molto leggeri. Possono essere facilmente appesi senza sistemi di rigging complessi come le luci o i pannelli normali. Popolari per l'altezza ridotta, la facile manipolazione e il controllo semplice.",
+      "type": "LED RGBWW / Tungsten / HMI / Mix",
+      "power": "300 W per colore",
+      "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "120cm x 120cm x 30cm"
+    },
     "page": {
       "title": "Attrezzatura",
       "subtitle": "Attrezzatura di illuminazione specializzata",

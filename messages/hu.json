@@ -114,6 +114,24 @@
       "colorTemp": "3200K / 5600K",
       "dimensions": "Igény szerint"
     },
+    "noGravity": {
+      "name": "NO GRAVITY LIGHT",
+      "description": "No Gravity világításainkat elsősorban a film- és TV-iparban használják. Előnyeik: alacsony magasság, alacsony hélium térfogat, könnyű kezelés és irányítás. Levegővel is tölthetők.",
+      "type": "LED RGBWW",
+      "power": "300 W színenként",
+      "sourceType": "LED RGBWW",
+      "colorTemp": "2700K-6500K",
+      "dimensions": "3x3x1m / 2.8x2.8x0.8m"
+    },
+    "stative": {
+      "name": "STATÍV BALLOONOK",
+      "description": "Statív balloonjaink levegővel töltődnek, így nagyon könnyűek. Könnyen felakaszthatók összetett rigging rendszerek nélkül, mint a hagyományos világítások vagy panelek. Népszerűek az alacsony magasság, könnyű kezelés és egyszerű irányítás miatt.",
+      "type": "LED RGBWW / Tungsten / HMI / Mix",
+      "power": "300 W színenként",
+      "sourceType": "LED RGBWW / Tungsten / HMI / Mix",
+      "colorTemp": "3200K / 5600K",
+      "dimensions": "120cm x 120cm x 30cm"
+    },
     "page": {
       "title": "Technika",
       "subtitle": "Specializált világítási technika",

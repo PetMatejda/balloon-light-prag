@@ -28,15 +28,11 @@ if ($status) {
 Write-Host ""
 Write-Host "Creating commit..." -ForegroundColor Yellow
 $commitMessage = @"
-Update: Rename Technika to Produkty and add German language support
+Fix: Add missing noGravity and stative products to all language files
 
-- Renamed 'Technika' to 'Produkty' in Czech translations (nav, hero, products)
-- Added German language support (de.json)
-- Updated i18n-config.ts, middleware.ts, lib/translations.ts
-- Added Deutsch to LanguageSwitcher
-- Created new films page (/filmy)
-- Updated gallery and references sections
-- Removed Filmová produkce, Televizní produkce, Reklama a dokumenty sections
+- Added noGravity and stative products to en.json, de.json, hu.json, es.json, it.json
+- Fixed duplicate main() call in scrape-gallery-simple.js
+- All language files now have consistent structure matching cs.json
 "@
 
 git commit -m $commitMessage
