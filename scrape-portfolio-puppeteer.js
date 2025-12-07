@@ -124,12 +124,71 @@ async function main() {
     // Navigate to portfolio page
     console.log('Loading portfolio page...');
     await page.goto(TARGET_URL, { 
-      waitUntil: 'networkidle2',
-      timeout: 30000 
+      waitUntil: 'domcontentloaded',
+      timeout: 60000 
     });
     
-    // Wait a bit for any lazy-loaded images
+    console.log('Waiting for initial page load...');
+    await new Promise(resolve => setTimeout(resolve, 5000));
+    
+    // Wait for network to be idle
+    try {
+      await page.waitForLoadState?.('networkidle') || await new Promise(resolve => setTimeout(resolve, 3000));
+    } catch (e) {
+      await new Promise(resolve => setTimeout(resolve, 3000));
+    }
+    
+    // Scroll to trigger lazy loading - scroll multiple times
+    console.log('Scrolling page to load all images...');
+    const scrollHeight = await page.evaluate(() => document.body.scrollHeight);
+    const viewportHeight = await page.evaluate(() => window.innerHeight);
+    const scrollSteps = Math.ceil(scrollHeight / viewportHeight) + 2;
+    
+    for (let i = 0; i < scrollSteps; i++) {
+      const scrollPosition = (i * viewportHeight);
+      await page.evaluate((pos) => {
+        window.scrollTo(0, pos);
+      }, scrollPosition);
+      await new Promise(resolve => setTimeout(resolve, 1500)); // Wait for images to load
+    }
+    
+    // Scroll to bottom
+    await page.evaluate(() => {
+      window.scrollTo(0, document.body.scrollHeight);
+    });
     await new Promise(resolve => setTimeout(resolve, 3000));
+    
+    // Scroll back to top slowly
+    console.log('Scrolling back to top...');
+    for (let i = scrollSteps; i >= 0; i--) {
+      const scrollPosition = (i * viewportHeight);
+      await page.evaluate((pos) => {
+        window.scrollTo(0, pos);
+      }, scrollPosition);
+      await new Promise(resolve => setTimeout(resolve, 1000));
+    }
+    
+    // Final wait for any remaining images
+    console.log('Final wait for all images to load...');
+    await new Promise(resolve => setTimeout(resolve, 5000));
+    
+    // Try to click on any expand/collapse buttons or load more buttons
+    try {
+      const loadMoreButtons = await page.$$('button, a, [class*="load"], [class*="more"], [class*="expand"], [id*="load"], [id*="more"]');
+      for (const button of loadMoreButtons) {
+        try {
+          const text = await page.evaluate(el => el.textContent?.toLowerCase() || '', button);
+          if (text.includes('load') || text.includes('more') || text.includes('zobrazit') || text.includes('více')) {
+            await button.click();
+            await new Promise(resolve => setTimeout(resolve, 2000));
+          }
+        } catch (e) {
+          // Ignore click errors
+        }
+      }
+    } catch (e) {
+      // Ignore if no buttons found
+    }
     
     // Extract all image URLs from the page
     console.log('Extracting image URLs...');
